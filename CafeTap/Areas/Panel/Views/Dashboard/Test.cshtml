@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+@section scripts{
+
+    <script src="~/Limitless/global_assets/js/plugins/ui/fullcalendar/core/main.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/fullcalendar/daygrid/main.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/fullcalendar/timegrid/main.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/fullcalendar/interaction/main.min.js"></script>
+}
+<div class="text-center text-muted content-divider mb-3">
+    <span class="p-2">Contracts</span>
+</div>
+@await Component.InvokeAsync("ContractMeetingCalendar")

@@ -1,0 +1,60 @@
+﻿@model Infrastructure.Positions.Commands.CreatePositionCommand
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Vəzifə Əlavə Etmək";
+    ViewData["MainTitle"] = "Vəzifə";
+    ViewData["SubTitle"] = "Əlavə Etmək";
+    ViewData["employees"] = "active";
+}
+@section scripts
+{
+
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+
+}
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title font-weight-bold">İşçilər və vəzifələr Bölməsi</h5>
+    </div>
+
+    <div class="card-body">
+        <ul class="nav nav-tabs nav-tabs-highlight">
+            <li class="nav-item"><a asp-controller="Employees" asp-action="Index" asp-route-page="1" class="nav-link">İşçilər</a></li>
+            <li class="nav-item"><a asp-controller="Positions" asp-action="Index" asp-route-page="1" class="nav-link active ">Vəzifələr</a></li>
+            <li class="nav-item"><a asp-controller="EmployeeFaults" asp-action="Index" asp-route-page="1" class="nav-link">Xətalar</a></li>
+            <li class="nav-item"><a asp-controller="EmployeePunishments" asp-action="Index" asp-route-page="1" class="nav-link">Cəzalar</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+    </div>
+
+    <div class="card-body">
+        <p class="mb-4">Vəzifə Əlavə Etmək</p>
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form asp-action="Add" asp-controller="Positions" asp-area="Panel" method="post">
+            <fieldset class="mb-3">
+                <legend class="text-uppercase font-size-sm font-weight-bold">Vəzifə</legend>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Ad</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="@Model.Name">
+                    </div>
+                </div>
+                <span asp-validation-for="@Model.Name" class="text-danger"></span>
+
+                <button type="submit" class="btn bg-blue ml-3">Əlavə Et<i class="icon-paperplane ml-2"></i></button>
+            </fieldset>
+        </form>
+
+    </div>
+</div>
+

@@ -1,0 +1,109 @@
+﻿@model Infrastructure.RestaurantMeetings.ViewModels.CreateMeetingVm
+
+@{ 
+    Layout = "_Layout";
+    ViewData["Title"] = "Görüş əlavə et";
+    ViewData["MainTitle"] = "Görüşlər";
+    ViewData["SubTitle"] = "Əlavə et";
+    ViewData["restaurants"] = "active";
+}
+@section scripts
+{
+
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+    <script src="~/Limitless/global_assets/js/demo_pages/form_inputs.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_validation.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/validation/validate.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switch.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/purify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/sortable.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/uploader_bootstrap.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_actions.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_select2.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/moment/moment.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/daterangepicker.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/anytime.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.date.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.time.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/legacy.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/notifications/jgrowl.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/picker_date.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/notifications/pnotify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_multiselect.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/picker_date.js"></script>
+
+}
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Contract</h5>
+        <div class="header-elements">
+            <div class="list-icons">
+                <a class="list-icons-item" data-action="collapse"></a>
+                <a class="list-icons-item" data-action="reload"></a>
+                <a class="list-icons-item" data-action="remove"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form asp-action="Create" asp-controller="RestaurantMeetings" method="post">
+            <fieldset>
+                <legend class="font-weight-semibold text-uppercase font-size-sm">
+                    <i class="icon-file-text2 mr-2"></i>
+                    Görüş əlavə et
+                    <a href="#" class="float-right text-default" data-toggle="collapse" data-target="#demo1">
+                        <i class="icon-circle-down2"></i>
+                    </a>
+                </legend>
+
+                <div class="collapse show" id="demo1">
+                    <div class="form-group">
+                        <label>Məsul şəxs</label>
+                        <input type="text" class="form-control" asp-for="Person" placeholder="Məsul şəxs">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Mövzu</label>
+                        <input type="text" class="form-control" asp-for="Subject" placeholder="Mövzu">
+                    </div>
+                    <div class="form-group">
+                        <label>Qeyd</label>
+                        <input type="text" class="form-control" asp-for="Note" placeholder="Qeyd">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Vaxt</label>
+                        <div class="input-group">
+                            <span class="input-group-prepend">
+                                <button type="button" class="btn btn-light btn-icon" id="ButtonCreationDemoButton"><i class="icon-calendar3"></i></button>
+                            </span>
+                            <input type="datetime" asp-for="HappensAt" class="form-control" id="ButtonCreationDemoInput" placeholder="Vaxt təyin edin">
+                        </div>
+                    </div>
+
+
+                </div>
+            </fieldset>
+
+            <div class="text-right">
+                <button type="submit" class="btn btn-primary">Görüş əlavə et <i class="icon-paperplane ml-2"></i></button>
+            </div>
+        </form>
+    </div>
+</div>

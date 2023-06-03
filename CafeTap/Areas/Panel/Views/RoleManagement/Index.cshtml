@@ -1,0 +1,123 @@
+﻿@model List<Infrastructure.Roles.ViewModels.GetRoleVm>
+
+@{
+    ViewData["Title"] = "Mövqelərin siyahısı";
+    ViewData["MainTitle"] = "Mövqelər";
+    ViewData["SubTitle"] = "Siyahı";
+    ViewData["users"] = "active";
+    Layout = "_Layout";
+    int counter = 1;
+    int modalCounter = 1;
+}
+@section Css
+{
+    <!-- Theme JS files -->
+    <script src="~/Limitless/global_assets/js/plugins/tables/datatables/datatables.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/datatables_advanced.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/components_modals.js"></script>
+}
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title font-weight-bold">İstifadəçilər və mövqeylər Bölməsi</h5>
+    </div>
+
+    <div class="card-body">
+        <ul class="nav nav-tabs nav-tabs-highlight">
+            <li class="nav-item"><a asp-controller="UserManagement" asp-action="Index" asp-route-page="1" class="nav-link">İstifadəçilər</a></li>
+            <li class="nav-item"><a asp-controller="RoleManagement" asp-action="Index" asp-route-page="1" class="nav-link active">Mövqeylər</a></li>
+            <li class="nav-item"><a asp-controller="UserManagement" asp-action="AllTokens" asp-route-page="1" class="nav-link">Tokenlər</a></li>
+        </ul>
+        <div class="d-md-flex align-items-md-center flex-md-wrap text-center text-md-left">
+            <ul class="list-inline list-inline-condensed mb-0">
+                <li class="list-inline-item dropdown">
+                    <a asp-action="Add" asp-controller="RoleManagement" class="btn btn-link text-default"><i class="icon-add"></i> Yeni <strong>Mövqe</strong> əlavə et</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Mövqelər</h5>
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="header-elements">
+            <div class="list-icons">
+                <a class="list-icons-item" data-action="collapse"></a>
+                <a class="list-icons-item" data-action="reload"></a>
+                <a class="list-icons-item" data-action="remove"></a>
+            </div>
+        </div>
+    </div>
+
+    <table class="table datatable-show-all">
+        <thead>
+            <tr>
+                <th>Mövqe adı</th>
+                <th>İstifadəçilərin sayı</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var role in Model)
+            {
+                <tr>
+                    <td>@role.Name</td>
+                    <td>@role.Users.Count</td>
+                    <td class="text-center">
+                        <div class="list-icons">
+                            <div class="dropdown">
+                                <a href="#" class="list-icons-item" data-toggle="dropdown">
+                                    <i class="icon-menu9"></i>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a asp-controller="RoleManagement" asp-action="Edit" asp-route-roleName="@role.Name" class="dropdown-item"><i class="icon-pencil"></i>Redaktə</a>
+                                    <a asp-controller="RoleManagement" asp-action="AddClaims" asp-route-name="@role.Name" asp-route-id="@role.Id" class="dropdown-item"><i class="icon-pencil"></i>İcazəni dəyişdir</a>
+                                    <a data-toggle="modal" data-target="#modal_theme_danger-@counter" class="dropdown-item"><i class="icon-eraser3"></i>Sil</a>
+                                    @{ 
+                                        counter += 1;
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                
+            }
+        </tbody>
+    </table>
+</div>
+
+
+@foreach (var role in Model)
+{
+    <div id="modal_theme_danger-@modalCounter" class="modal fade" tabindex="-1">
+        @{
+            modalCounter += 1;
+        }
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-danger">
+                    <h6 class="modal-title">Mövqe silinəcək: @role.Name</h6>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <h6 class="font-weight-semibold">Vacib qeyd!!!</h6>
+                    <p>Bu mövqeni silmək istədiyinizdən əminsiniz mi?</p>
+                </div>
+
+                <div class="modal-footer">
+                    <form asp-action="Delete" asp-controller="RoleManagement" asp-area="Panel" asp-route-name="@role.Name" method="post">
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Bağla</button>
+                        <button type="submit" class="btn bg-danger">Sil</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,80 @@
+D:\PrivetProjects\CafeTap\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+D:\PrivetProjects\CafeTap\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+D:\PrivetProjects\CafeTap\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+D:\PrivetProjects\CafeTap\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\PrivetProjects\CafeTap\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\PrivetProjects\CafeTap\DataAccess\bin\Debug\netcoreapp3.1\Domain.dll
+D:\PrivetProjects\CafeTap\DataAccess\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\PrivetProjects\CafeTap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+D:\PrivetProjects\CafeTap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\PrivetProjects\CafeTap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+D:\PrivetProjects\CafeTap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+D:\PrivetProjects\CafeTap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+D:\PrivetProjects\CafeTap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+D:\PrivetProjects\CafeTap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+D:\PrivetProjects\CafeTap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+D:\PrivetProjects\CafeTap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache

@@ -1,0 +1,93 @@
+﻿@model Infrastructure.Products.Commands.CreateProductCommand
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Məhsul Əlavə Etmək";
+    ViewData["MainTitle"] = "Məhsul";
+    ViewData["SubTitle"] = "Əlavə Etmək";
+    ViewData["services"] = "active";
+}
+@section scripts
+{
+
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+    <script src="~/Limitless/global_assets/js/demo_pages/form_inputs.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_validation.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/validation/validate.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switch.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/purify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/sortable.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/uploader_bootstrap.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_actions.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_select2.js"></script>
+
+    <link href="~/lib/summernote/summernote-bs5.css" rel="stylesheet" />
+    <script src="~/Limitless/global_assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/loaders/blockui.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/editors/summernote/summernote.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/editor_summernote.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+
+
+}
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Məhsul</h5>
+        <div class="header-elements">
+            <div class="list-icons">
+                <a class="list-icons-item" data-action="collapse"></a>
+                <a class="list-icons-item" data-action="reload"></a>
+                <a class="list-icons-item" data-action="remove"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <p class="mb-4">Məhsul Əlavə Et</p>
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form asp-action="Add" asp-controller="Products" asp-area="Panel" method="post" enctype="multipart/form-data">
+            <fieldset class="mb-3">
+                <legend class="text-uppercase font-size-sm font-weight-bold">Archive type Details</legend>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Məhsul Adı</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="Name">
+                    </div>
+                </div>
+                <span asp-validation-for="Name" class="text-danger"></span>
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Aylıq qiyməti</label>
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" asp-for="MonthlyPayment">
+                    </div>
+                </div>
+                <span asp-validation-for="MonthlyPayment" class="text-danger"></span>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">İllik qiyməti</label>
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" asp-for="YearlyPayment">
+                    </div>
+                </div>
+                <span asp-validation-for="YearlyPayment" class="text-danger"></span>
+
+
+
+                <button type="submit" class="btn bg-blue ml-3">Əlavə Et<i class="icon-paperplane ml-2"></i></button>
+            </fieldset>
+        </form>
+
+    </div>
+</div>

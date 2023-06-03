@@ -1,0 +1,89 @@
+﻿@model Infrastructure.Positions.ViewModels.GetPositionVm
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Vəzifəni Redaktə Et";
+    ViewData["MainTitle"] = "Vəzifə";
+    ViewData["SubTitle"] = "Redaktə Et";
+    ViewData["employees"] = "active";
+}
+@section scripts
+{
+
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Limitless/global_assets/js/main/jquery.min.js"></script>
+    <script src="~/Limitless/global_assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/loaders/blockui.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+
+    <script src="~/Limitless/global_assets/js/plugins/forms/validation/validate.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switch.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/purify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/sortable.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_actions.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_select2.js"></script>
+
+
+}
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title font-weight-bold">İşçilər və vəzifələr Bölməsi</h5>
+    </div>
+
+    <div class="card-body">
+        <ul class="nav nav-tabs nav-tabs-highlight">
+            <li class="nav-item"><a asp-controller="Employees" asp-action="Index" asp-route-page="1" class="nav-link">İşçilər</a></li>
+            <li class="nav-item"><a asp-controller="Positions" asp-action="Index" asp-route-page="1" class="nav-link active ">Vəzifələr</a></li>
+            <li class="nav-item"><a asp-controller="EmployeeFaults" asp-action="Index" asp-route-page="1" class="nav-link">Xətalar</a></li>
+            <li class="nav-item"><a asp-controller="EmployeePunishments" asp-action="Index" asp-route-page="1" class="nav-link">Cəzalar</a></li>
+        </ul>
+        <div class="d-md-flex align-items-md-center flex-md-wrap text-center text-md-left">
+            <ul class="list-inline list-inline-condensed mb-0">
+                <li class="list-inline-item dropdown">
+                    <a asp-action="Add" asp-controller="Positions" class="btn btn-link text-default"><i class="icon-add"></i> Yeni <strong>vəzifə</strong> əlavə et</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Vəzifə Redaktə Et</h5>
+        <div class="header-elements">
+            
+        </div>
+    </div>
+
+    <div class="card-body">
+        
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form asp-action="Update" asp-controller="Positions" asp-area="Panel" asp-route-id="@Model.Id" method="post">
+            <fieldset class="mb-3">
+                <legend class="text-uppercase font-size-sm font-weight-bold">Vəzifə Məlumatları</legend>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Vəzifənin adı</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="@Model.Name">
+                    </div>
+                </div>
+                <span asp-validation-for="@Model.Name" class="text-danger"></span>
+
+                <button type="submit" class="btn bg-orange ml-3">Redaktə Et<i class="icon-paperplane ml-2"></i></button>
+            </fieldset>
+        </form>
+
+    </div>
+</div>
+

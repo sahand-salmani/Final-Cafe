@@ -1,0 +1,119 @@
+﻿@model Infrastructure.Users.ViewModels.AddNewUserVm;
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Registration</title>
+
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+    <link href="~/Limitless/global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+    <link href="~/Limitless/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="~/Limitless/assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+    <link href="~/Limitless/assets/css/layout.min.css" rel="stylesheet" type="text/css">
+    <link href="~/Limitless/assets/css/components.min.css" rel="stylesheet" type="text/css">
+    <link href="~/Limitless/assets/css/colors.min.css" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+    <!-- Core JS files -->
+    <script src="~/Limitless/global_assets/js/main/jquery.min.js"></script>
+    <script src="~/Limitless/global_assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/loaders/blockui.min.js"></script>
+    <!-- /core JS files -->
+    <!-- Theme JS files -->
+    <script src="~/Limitless/global_assets/js/plugins/forms/validation/validate.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+
+    <script src="~/Limitless/assets/js/app.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/login_validation.js"></script>
+    <!-- /theme JS files -->
+
+</head>
+
+<body>
+
+
+
+    <div class="container w-25 my-auto">
+        <div class="modal-content">
+
+            <!-- Form -->
+            <form class="modal-body" asp-action="Register" asp-controller="Register" method="post">
+                <div class="text-danger" asp-validation-summary="All"></div>
+                <div class="text-center mb-3">
+                    <i class="icon-plus3 icon-2x text-success border-success border-3 rounded-round p-3 mb-3 mt-1"></i>
+                    <h5 class="mb-0">Qeydiyyatdan keç</h5>
+                    <span class="d-block text-muted">Bütün bəndlər doldurulmalıdır</span>
+                </div>
+
+                <div class="form-group text-center text-muted content-divider">
+                    <span class="px-2">Hesab məlumatları</span>
+                </div>
+
+                <div class="form-group form-group-feedback form-group-feedback-left">
+                    <input type="text" class="form-control" asp-for="UserName" placeholder="İstifadəçi adı">
+                    <div class="form-control-feedback">
+                        <i class="icon-user-check text-muted"></i>
+                    </div>
+                    <span asp-validation-for="UserName" class="form-text text-danger"></span>
+                </div>
+
+                <div class="form-group form-group-feedback form-group-feedback-left">
+                    <input type="password" asp-for="Password" class="form-control" placeholder="Parol">
+                    <div class="form-control-feedback">
+                        <i class="icon-user-lock text-muted"></i>
+                        <span asp-validation-for="UserName" class="form-text text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group form-group-feedback form-group-feedback-left">
+                    <input type="password" asp-for="ConfirmPassword" class="form-control" placeholder="Parolu təsdiqlə">
+                    <div class="form-control-feedback">
+                        <i class="icon-user-lock text-muted"></i>
+                        <span asp-validation-for="ConfirmPassword" class="form-text text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group text-center text-muted content-divider">
+                    <span class="px-2">Sənin E-mailin</span>
+                </div>
+
+                <div class="form-group form-group-feedback form-group-feedback-left">
+                    <input asp-for="Email" class="form-control" placeholder="E-mail">
+                    <div class="form-control-feedback">
+                        <i class="icon-mention text-muted"></i>
+                        <span asp-validation-for="Email" class="form-text text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group form-group-feedback form-group-feedback-left">
+                    <input asp-for="ConfirmEmail" class="form-control" placeholder="Təkrar E-mail">
+                    <div class="form-control-feedback">
+                        <i class="icon-mention text-muted"></i>
+                        <span asp-validation-for="ConfirmEmail" class="form-text text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group text-center text-muted content-divider">
+                    <span class="px-2">Token</span>
+                </div>
+
+                <div class="form-group form-group-feedback form-group-feedback-left">
+                    <input asp-for="Token" class="form-control" placeholder="Token">
+                    <div class="form-control-feedback">
+                        <i class="icon-mention text-muted"></i>
+                        <span asp-validation-for="Token" class="form-text text-danger"></span>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn bg-teal-400 btn-block">Qeydiyyat <i class="icon-circle-right2 ml-2"></i></button>
+            </form>
+            <!-- /form -->
+
+        </div>
+    </div>
+
+</body>
+</html>

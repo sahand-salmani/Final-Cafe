@@ -1,0 +1,117 @@
+﻿@model List<DataAccess.Common.MonthlyEmployeePaymentVm>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Işçinin ödəniş təfərruatları";
+    ViewData["MainTitle"] = "Işçinin ödəniş";
+    ViewData["SubTitle"] = "təfərruatları";
+    ViewData["employees"] = "active";
+    List<int> years = Enumerable.Range(DateTime.Now.AddYears(-10).Year, 20).ToList();
+}
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title font-weight-bold">İşçilər və Vəzifələr Bölməsi</h5>
+    </div>
+
+    <div class="card-body">
+        <ul class="nav nav-tabs nav-tabs-highlight">
+            <li class="nav-item"><a asp-controller="Employees" asp-action="Index" asp-route-page="1" class="nav-link">İşçilər</a></li>
+            <li class="nav-item"><a asp-controller="Positions" asp-action="Index" asp-route-page="1" class="nav-link ">Vəzifələr</a></li>
+            <li class="nav-item"><a asp-controller="EmployeeFaults" asp-action="Index" asp-route-page="1" class="nav-link">Xətalar</a></li>
+            <li class="nav-item"><a asp-controller="EmployeePunishments" asp-action="Index" asp-route-page="1" class="nav-link">Cəzalar</a></li>
+            <li class="nav-item"><a asp-controller="EmployeePayments" asp-action="EmployeePaymentDetails" asp-route-id="1" class="nav-link active">Ödəniş Təfərruatları</a></li>
+        </ul>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <h5 class="mb-3">Search for</h5>
+
+        <form asp-action="SearchEmployeePaymentDetails" asp-controller="EmployeePayments" asp-area="Panel" method="get">
+            <div class="input-group mb-3">
+                <div class="form-group-feedback w-auto">
+                    <input hidden name="id" value="@ViewData["Id"]"/>
+                    <select name="year" class="form-control form-control-lg">
+                        @foreach (var year in years)
+                        {
+                            if (year == DateTime.Now.Year)
+                            {
+                                <option selected="selected" value="@year">@year</option>
+                            }
+                            else
+                            {
+                                <option value="@year">@year</option>
+                            }
+
+                        }
+                    </select>
+                </div>
+
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary btn-lg">Search</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+<!-- /search field -->
+<!-- /search field -->
+<!-- Bordered table -->
+<div class="card">
+    <div class="card-header header-elements-inline">
+        @if (Model != null)
+        {
+            if (Model.Any())
+            {
+                if (!string.IsNullOrEmpty(Model.FirstOrDefault()?.EmployeeName))
+                {
+                    <h3 class="card-title">@Model.FirstOrDefault()?.EmployeeName @Model.FirstOrDefault()?.DateTime.Year İlin ödənişləri</h3>
+                }
+            }
+        }
+        <div class="header-elements">
+        </div>
+    </div>
+
+
+
+    <table class="table datatable-basic table-bordered">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>İl</th>
+                <th>Ay</th>
+                <th>Ödəniş</th>
+                <th>Bonuslar</th>
+                <th>Avanslar</th>
+                <th>Cəzalar</th>
+                <th>Toplam Ödaniş</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                @if (Model.Count != 0)
+                {
+                    @for (int i = 0; i < Model.Count; i++)
+                    {
+                        <tr>
+                            <td>@(i+1)</td>
+                            <td>@Model[i].DateTime.Year</td>
+                            <td>@Model[i].DateTime.ToString("MMMM", AzCulture.AzCulture())</td>
+                            <td>@Model[i].PaymentAmount.ToString("C", AzCulture.AzCulture())</td>
+                            <td>@Model[i].Extras.ToString("C", AzCulture.AzCulture())</td>
+                            <td>@Model[i].PrePaid.ToString("C", AzCulture.AzCulture())</td>
+                            <td>@Model[i].Punishments.ToString("C", AzCulture.AzCulture())</td>
+                            <td>@Model[i].TotalReceived.ToString("C", AzCulture.AzCulture())</td>
+                        </tr>
+                    }
+                }
+            }
+
+        </tbody>
+    </table>
+</div>
+<!-- /bordered table -->
+

@@ -1,0 +1,41 @@
+﻿<div class="card">
+    <div class="card-header bg-transparent border-bottom header-elements-inline">
+        <span class="text-uppercase font-size-sm font-weight-semibold">Əməliyyatlar</span>
+        <div class="header-elements">
+            <div class="list-icons">
+                <a class="list-icons-item" data-action="collapse"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <div class="row">
+            <div class="col">
+                <a asp-action="Add" asp-controller="Restaurants" class="btn bg-teal-400 btn-block btn-float">
+                    <i class="icon-file-plus icon-2x"></i>
+                    <span>Restoran</span>
+                </a>
+
+                <a asp-controller="Contracts" asp-action="Index" class="btn bg-purple-300 btn-block btn-float">
+                    <i class="icon-archive icon-2x"></i>
+                    <span>Müqavilələr</span>
+                </a>
+            </div>
+
+            <div class="col">
+                <a asp-controller="Employees" asp-action="Index" class="btn bg-warning-400 btn-block btn-float">
+                    <i class="icon-users icon-2x"></i>
+                    <span>İşçilər</span>
+                </a>
+
+                @if (User.HasClaim(e => e.Value == ClaimsList.Spends))
+                {
+                    <a asp-controller="Spends" asp-action="Index" class="btn bg-blue btn-block btn-float">
+                        <i class="icon-stats-bars icon-2x"></i>
+                        <span>Xərclər</span>
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+</div>

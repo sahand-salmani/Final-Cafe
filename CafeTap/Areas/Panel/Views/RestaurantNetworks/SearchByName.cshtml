@@ -1,0 +1,160 @@
+﻿@model DataAccess.Pagination.PaginatedList<RestaurantNetwork>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Şəbəkələr Siyahı";
+    ViewData["MainTitle"] = "Şəbəkələr";
+    ViewData["SubTitle"] = "Siyahı";
+    ViewData["restaurants"] = "active";
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+    int counter = 1;
+    int modalCounter = 1;
+}
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title font-weight-bold">Bölmələr</h5>
+    </div>
+
+    <div class="card-body">
+        <ul class="nav nav-tabs nav-tabs-highlight">
+            <li class="nav-item"><a asp-controller="Restaurants" asp-action="Index" asp-route-page="1" class="nav-link">Restoranlar</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantStatuses" asp-action="Index" asp-route-page="1" class="nav-link">Statuslar</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantNetworks" asp-action="Index" asp-route-page="1" class="nav-link active">Restoran şəbəkələri</a></li>
+            <li class="nav-item"><a asp-controller="Contracts" asp-action="Index" asp-route-page="1" class="nav-link">Müqavilələr</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantMeetings" asp-action="Index" asp-route-page="1" class="nav-link">Görüşlər</a></li>
+            <li class="nav-item"><a asp-controller="Partners" asp-action="Index" asp-route-page="1" class="nav-link">Partnerlər</a></li>
+            <li class="nav-item"><a asp-controller="BlackList" asp-action="Index" asp-route-page="1" class="nav-link">Qara siyahı</a></li>
+        </ul>
+        <div class="d-md-flex align-items-md-center flex-md-wrap text-center text-md-left">
+            <ul class="list-inline list-inline-condensed mb-0">
+                <li class="list-inline-item dropdown">
+                    <a asp-action="Add" asp-controller="RestaurantNetworks" class="btn btn-link text-default"><i class="icon-add"></i> Yeni <strong>restoran şəbəkəsi</strong> əlavə et</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="mb-3">Restoran şəbəkələri</h5>
+        <form asp-action="SearchByName" asp-route-page="1" asp-controller="RestaurantNetworks" asp-area="Panel" method="get">
+            <div class="input-group mb-3">
+                <div class="form-group-feedback form-group-feedback-left">
+                    <input type="text" name="name" class="form-control form-control-lg" placeholder="Axtar">
+                    <div class="form-control-feedback form-control-feedback-lg">
+                        <i class="icon-search4 text-muted"></i>
+                    </div>
+                </div>
+
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary btn-lg">Axtar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- /search field -->
+<!-- Bordered table -->
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Axtarış</h5>
+    </div>
+
+
+    <table class="table datatable-basic table-bordered">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Ad</th>
+                <th>Restoran sayı</th>
+                <th class="text-center">Əməliyyatlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                @if (Model.Count != 0)
+                {
+                    @for (int i = 0; i < Model.Count; i++)
+                    {
+                        <tr>
+                            <td>@(i+1)</td>
+                            <td>@Model[i].Name</td>
+                            <td><a asp-controller="RestaurantNetworks" asp-action="NetworkRestaurants" asp-route-id="@Model[i].Id">@Model[i].Restaurants.Count</a></td>
+                            <td class="text-center">
+                                <div class="list-icons">
+                                    <div class="dropdown">
+                                        <a href="#" class="list-icons-item" data-toggle="dropdown">
+                                            <i class="icon-menu9"></i>
+                                        </a>
+
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <a asp-controller="RestaurantNetworks" asp-action="Update" asp-route-id="@Model[i].Id" class="dropdown-item"><i class="icon-pencil"></i>Redaktə et</a>
+                                            <a data-toggle="modal" data-target="#modal_theme_danger-@counter" class="dropdown-item"><i class="icon-eraser3"></i>Sil</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    }}}
+
+        </tbody>
+    </table>
+</div>
+<!-- /bordered table -->
+
+
+
+@foreach (var product in Model)
+{
+    <div id="modal_theme_danger-@modalCounter" class="modal fade" tabindex="-1">
+        @{ modalCounter += 1; }
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-danger">
+                    <h6 class="modal-title">Şəbəkə silinəcək: @product.Name</h6>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <h6 class="font-weight-semibold">Vacib qeyd!!!</h6>
+                    <p>Bu Şəbəkəni silmək istədiyinizdən əminsiniz mi?</p>
+                </div>
+
+                <div class="modal-footer">
+                    <form asp-action="Delete" asp-controller="RestaurantNetworks" asp-area="Panel" asp-route-id="@product.Id" method="post">
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Bağla</button>
+                        <button type="submit" class="btn bg-danger">Sil</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>}
+
+
+@{
+    var start = Math.Max((Model.PageIndex - 3), 1);
+    int ends = Math.Min((Model.PageIndex + 3), Model.TotalPages);
+}
+
+
+<ul class="pagination align-self-end">
+    <li class="page-item @prevDisabled"><a asp-controller="RestaurantNetworks" asp-action="SearchByName" asp-route-page="@(Model.PageIndex - 1)" asp-route-name="@ViewData["Search"]" class="page-link">&larr; &nbsp; Prev</a></li>
+    @for (int i = start; i <= ends; i++)
+    {
+        <td>
+            @if (i != Model.PageIndex)
+            {
+                <li class="page-item active"><a asp-controller="RestaurantNetworks" asp-action="SearchByName" asp-route-page="@i" asp-route-name="@ViewData["Search"]" class="page-link">@i</a></li>
+            }
+            else
+            {
+                <li class="page-item disabled"><a asp-controller="RestaurantNetworks" asp-action="SearchByName" asp-route-page="@i" asp-route-name="@ViewData["Search"]" class="page-link">@i</a></li>
+            }
+        </td>
+    }
+    <li class="page-item @nextDisabled"><a asp-controller="RestaurantNetworks" asp-action="SearchByName" asp-route-page="@(Model.PageIndex + 1)" asp-route-name="@ViewData["Search"]" class="page-link">Next &nbsp; &rarr;</a></li>
+</ul>

@@ -1,0 +1,101 @@
+﻿@model Infrastructure.RestaurantNetworks.ViewModels.CreateRestaurantNetworkVm;
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Restoran şəbəkəsi əlavə et";
+    ViewData["MainTitle"] = "Şəbəkə";
+    ViewData["SubTitle"] = "Əlavə et";
+    ViewData["restaurants"] = "active";
+}
+@section scripts
+{
+
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+    <script src="~/Limitless/global_assets/js/demo_pages/form_inputs.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_validation.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/validation/validate.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switch.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/purify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/sortable.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/uploader_bootstrap.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_actions.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_select2.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/moment/moment.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/daterangepicker.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/anytime.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.date.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.time.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/legacy.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/notifications/jgrowl.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/picker_date.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/notifications/pnotify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_multiselect.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/picker_date.js"></script>
+
+}
+<partial name="_Validation" />
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title font-weight-bold">Bölmələr</h5>
+    </div>
+
+    <div class="card-body">
+        <ul class="nav nav-tabs nav-tabs-highlight">
+            <li class="nav-item"><a asp-controller="Restaurants" asp-action="Index" asp-route-page="1" class="nav-link">Restoranlar</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantStatuses" asp-action="Index" asp-route-page="1" class="nav-link">Statuslar</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantNetworks" asp-action="Index" asp-route-page="1" class="nav-link active">Restoran şəbəkələri</a></li>
+            <li class="nav-item"><a asp-controller="Contracts" asp-action="Index" asp-route-page="1" class="nav-link">Müqavilələr</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantMeetings" asp-action="Index" asp-route-page="1" class="nav-link">Görüşlər</a></li>
+            <li class="nav-item"><a asp-controller="Partners" asp-action="Index" asp-route-page="1" class="nav-link">Partnerlər</a></li>
+            <li class="nav-item"><a asp-controller="BlackList" asp-action="Index" asp-route-page="1" class="nav-link">Qara siyahı</a></li>
+        </ul>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Restoran Şəbəkə</h5>
+        <div class="header-elements">
+        </div>
+    </div>
+
+    <div class="card-body">
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form asp-action="Add" asp-controller="RestaurantNetworks" method="post">
+            <fieldset>
+                <legend class="font-weight-semibold text-uppercase font-size-sm">
+                    <i class="icon-file-text2 mr-2"></i>
+                    Şəbəkə
+                    <a href="#" class="float-right text-default" data-toggle="collapse" data-target="#demo1">
+                        <i class="icon-circle-down2"></i>
+                    </a>
+                </legend>
+
+                <div class="collapse show" id="demo1">
+                    <div class="form-group">
+                        <label>Ad</label>
+                        <input class="form-control" asp-for="Name" placeholder="Şəbəkə adı">
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="text-right">
+                <button type="submit" class="btn btn-primary">Əlavə et<i class="icon-paperplane ml-2"></i></button>
+            </div>
+        </form>
+    </div>
+</div>

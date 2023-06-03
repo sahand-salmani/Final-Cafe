@@ -1,0 +1,58 @@
+﻿@model List<Infrastructure.Contracts.ViewModels.ContractNotificationVm>
+
+@{
+    var notificationCount = 0;
+    var notificationExists = false;
+    if (Model != null)
+    {
+        if (Model.Any())
+        {
+            notificationCount = Model.Count;
+            notificationExists = true;
+        }
+    }
+}
+
+<a href="#" class="navbar-nav-link dropdown-toggle caret-0" data-toggle="dropdown">
+    <i class="icon-bubbles4"></i>
+    <span class="d-md-none ml-2">Müqavilələr</span>
+    @if (notificationExists)
+    {
+        <span class="badge badge-pill bg-warning-400 ml-auto ml-md-0">@notificationCount</span>
+    }
+</a>
+
+<div class="dropdown-menu dropdown-menu-right dropdown-content wmin-md-350">
+    <div class="dropdown-content-header">
+        <span class="font-weight-semibold">Müqavilələr</span>
+    </div>
+
+    <div class="dropdown-content-body dropdown-scrollable">
+        <ul class="media-list">
+            
+            @if (Model != null)
+            {
+                @foreach (var contract in Model)
+                {
+                    <li class="media">
+                        <div class="media-body">
+                            <div class="media-title">
+                                <a asp-controller="Contracts" asp-action="Get" asp-route-id="@contract.Id">
+                                    <span class="font-weight-semibold">Müqavilə: @contract.Name </span>
+                                </a>
+                                <span class="text-muted float-right font-size-sm">@contract.Remaining</span>
+                            </div>
+
+                            <span class="text-muted">Restoran: @contract.RestaurantName</span>
+                        </div>
+                    </li>
+                }
+            }
+            
+        </ul>
+    </div>
+
+    <div class="dropdown-content-footer justify-content-center p-0">
+        <a asp-controller="Contracts" asp-action="Index" asp-route-page="1" class="bg-light text-grey w-100 py-2" title="Hammısı"><i class="icon-menu7 d-block top-0"></i></a>
+    </div>
+</div>

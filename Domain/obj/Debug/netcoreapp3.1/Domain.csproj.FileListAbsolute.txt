@@ -1,0 +1,50 @@
+D:\PrivetProjects\CafeTap\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\PrivetProjects\CafeTap\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\PrivetProjects\CafeTap\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\PrivetProjects\CafeTap\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PrivetProjects\CafeTap\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\PrivetProjects\CafeTap\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\PrivetProjects\CafeTap\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\PrivetProjects\CafeTap\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\PrivetProjects\CafeTap\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+D:\PrivetProjects\CafeTap\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\ValikhanlouSalmani\Desktop\caf\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ValikhanlouSalmani\Desktop\caf\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

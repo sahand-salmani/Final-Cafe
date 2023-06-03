@@ -1,0 +1,325 @@
+﻿@model Infrastructure.Statistics.ViewModels.GetInComeAndSpendPerMonthInYearVm
+@using Microsoft.VisualBasic
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Gəlirlər Siyahısı";
+    ViewData["MainTitle"] = "Gəlirlər";
+    ViewData["SubTitle"] = "Siyahısı";
+    List<int> years = Enumerable.Range(DateAndTime.Now.AddYears(-10).Year, DateAndTime.Now.AddYears(10).Year).ToList();
+    int currentYear = DateTime.Now.Year;
+    ViewData["statistics"] = "active";
+
+}
+@section scripts
+{
+    <script src="~/Limitless/global_assets/js/plugins/visualization/echarts/echarts.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_charts/echarts/light/bars/columns_basic.js"></script>
+
+}
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title font-weight-bold">Statistika Bölmələrı</h5>
+    </div>
+
+    <div class="card-body">
+        <ul class="nav nav-tabs nav-tabs-highlight">
+            <li class="nav-item"><a asp-controller="Statistics" asp-action="Search" asp-route-page="1" class="nav-link active">Axtar</a></li>
+            <li class="nav-item"><a asp-controller="Statistics" asp-action="CurrentYearIncomePerMonth" class="nav-link">Bu ilin Gəlir və xərcləri</a></li>
+            <li class="nav-item"><a asp-controller="Statistics" asp-action="MonthlyIncomePerYears" class="nav-link">Aylıq müqavilələrin illər üzərə gəliri</a></li>
+            <li class="nav-item"><a asp-controller="Statistics" asp-action="YearlyContractIncomePerYears" class="nav-link">İllik müqavilələrin illər üzərə gəliri</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="mb-3">Axtarış</h5>
+
+        <form asp-action="SearchByYearAndContractType" asp-controller="Statistics" asp-area="Panel" method="get">
+            <div class="input-group mb-3">
+                <div class="form-group-feedback w-auto">
+                    <select name="year" class="form-control form-control-lg">
+                        @foreach (var year in years)
+                        {
+                            if (year == DateTime.Now.Year)
+                            {
+                                <option selected="selected" value="@year">@year</option>
+                            }
+                            else
+                            {
+                                <option value="@year">@year</option>
+                            }
+
+                        }
+                    </select>
+                </div>
+
+                <div class="form-group-feedback w-auto">
+                    <select name="contractType" class="form-control form-control-lg">
+                        <option value="0">Aylıq</option>
+                        <option value="1">İllik</option>
+                        <option selected="selected" value="2">Toplam</option>
+                    </select>
+                </div>
+
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary btn-lg">Axtar</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+<!-- /search field -->
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Gəlirlər və Xərclər @currentYear</h5>
+        <div class="header-elements">
+            <div class="list-icons">
+                <a class="list-icons-item" data-action="collapse"></a>
+                <a class="list-icons-item" data-action="reload"></a>
+                <a class="list-icons-item" data-action="remove"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <div class="chart-container">
+            <div class="chart has-fixed-height" id="columns_basic"></div>
+        </div>
+    </div>
+</div>
+<!-- /basic columns -->
+
+
+<script type="text/javascript">
+
+
+    var incomesJson = @Json.Serialize(Model?.Incomes);
+    var incomes = [];
+    incomesJson.forEach(item => {
+            incomes.push(item.total);
+        }
+    );
+
+    var spendsJson = @Json.Serialize(Model?.Spends);
+    var spends = [];
+    spendsJson.forEach(item => {
+        spends.push(item.total);
+    });
+
+
+    var EchartsColumnsBasicLight = function () {
+
+
+        //
+        // Setup module components
+        //
+
+        // Basic column chart
+        var _columnsBasicLightExample = function () {
+            if (typeof echarts == 'undefined') {
+                console.warn('Warning - echarts.min.js is not loaded.');
+                return;
+            }
+
+            // Define element
+            var columns_basic_element = document.getElementById('columns_basic');
+
+
+            //
+            // Charts configuration
+            //
+
+            if (columns_basic_element) {
+
+                // Initialize chart
+                var columns_basic = echarts.init(columns_basic_element);
+
+
+                //
+                // Chart config
+                //
+
+                // Options
+                columns_basic.setOption({
+
+                    // Define colors
+                    color: ['#2ec7c9', '#b6a2de', '#5ab1ef', '#ffb980', '#d87a80'],
+
+                    // Global text styles
+                    textStyle: {
+                        fontFamily: 'Roboto, Arial, Verdana, sans-serif',
+                        fontSize: 13
+                    },
+
+                    // Chart animation duration
+                    animationDuration: 750,
+
+                    // Setup grid
+                    grid: {
+                        left: 0,
+                        right: 40,
+                        top: 35,
+                        bottom: 0,
+                        containLabel: true
+                    },
+
+                    // Add legend
+                    legend: {
+                        data: ['Gəlirlər', 'Xərclər'],
+                        itemHeight: 8,
+                        itemGap: 20,
+                        textStyle: {
+                            padding: [0, 5]
+                        }
+                    },
+
+                    // Add tooltip
+                    tooltip: {
+                        trigger: 'axis',
+                        backgroundColor: 'rgba(0,0,0,0.75)',
+                        padding: [10, 15],
+                        textStyle: {
+                            fontSize: 13,
+                            fontFamily: 'Roboto, sans-serif'
+                        }
+                    },
+
+                    // Horizontal axis
+                    xAxis: [{
+                        type: 'category',
+                        data: ['Yan', 'Fev', 'Mar', 'Apr', 'May', 'İyun', 'İyul', 'Avg', 'Sen', 'Okt', 'Nov', 'Dek'],
+                        axisLabel: {
+                            color: '#333'
+                        },
+                        axisLine: {
+                            lineStyle: {
+                                color: '#999'
+                            }
+                        },
+                        splitLine: {
+                            show: true,
+                            lineStyle: {
+                                color: '#eee',
+                                type: 'dashed'
+                            }
+                        }
+                    }],
+
+                    // Vertical axis
+                    yAxis: [{
+                        type: 'value',
+                        axisLabel: {
+                            color: '#333'
+                        },
+                        axisLine: {
+                            lineStyle: {
+                                color: '#999'
+                            }
+                        },
+                        splitLine: {
+                            lineStyle: {
+                                color: ['#eee']
+                            }
+                        },
+                        splitArea: {
+                            show: true,
+                            areaStyle: {
+                                color: ['rgba(250,250,250,0.1)', 'rgba(0,0,0,0.01)']
+                            }
+                        }
+                    }],
+
+                    // Add series
+                    series: [
+                        {
+                            name: 'Gəlirlər',
+                            type: 'bar',
+                            data: incomes,
+                            itemStyle: {
+                                normal: {
+                                    label: {
+                                        show: true,
+                                        position: 'top',
+                                        textStyle: {
+                                            fontWeight: 500
+                                        }
+                                    }
+                                }
+                            }
+                            //markLine: {
+                            //    data: [{ type: 'average', name: 'Average' }]
+                            //}
+                        },
+                        {
+                            name: 'Xərclər',
+                            type: 'bar',
+                            data: spends,
+                            itemStyle: {
+                                normal: {
+                                    label: {
+                                        show: true,
+                                        position: 'top',
+                                        textStyle: {
+                                            fontWeight: 500
+                                        }
+                                    }
+                                }
+                            }
+                            //markLine: {
+                            //    data: [{ type: 'average', name: 'Average' }]
+                            //}
+                        }
+                    ]
+                });
+            }
+
+
+            //
+            // Resize charts
+            //
+
+            // Resize function
+            var triggerChartResize = function () {
+                columns_basic_element && columns_basic.resize();
+            };
+
+            // On sidebar width change
+            var sidebarToggle = document.querySelector('.sidebar-control');
+            sidebarToggle && sidebarToggle.addEventListener('click', triggerChartResize);
+
+            // On window resize
+            var resizeCharts;
+            window.addEventListener('resize', function () {
+                clearTimeout(resizeCharts);
+                resizeCharts = setTimeout(function () {
+                    triggerChartResize();
+                }, 200);
+            });
+        };
+
+
+        //
+        // Return objects assigned to module
+        //
+
+        return {
+            init: function () {
+                _columnsBasicLightExample();
+            }
+        }
+    }();
+
+
+    // Initialize module
+    // ------------------------------
+
+    document.addEventListener('DOMContentLoaded', function () {
+        EchartsColumnsBasicLight.init();
+    });
+
+</script>

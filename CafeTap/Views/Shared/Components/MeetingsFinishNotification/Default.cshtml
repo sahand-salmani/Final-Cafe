@@ -1,0 +1,58 @@
+﻿@model List<Infrastructure.RestaurantMeetings.ViewModels.MeetingNotificationVm>
+
+@{
+    var notificationCount = 0;
+    var notificationExists = false;
+    if (Model != null)
+    {
+        if (Model.Any())
+        {
+            notificationCount = Model.Count;
+            notificationExists = true;
+        }
+    }
+}
+
+<a href="#" class="navbar-nav-link dropdown-toggle caret-0" data-toggle="dropdown">
+    <i class="icon-people"></i>
+    <span class="d-md-none ml-2">Görüşlər</span>
+    @if (notificationExists)
+    {
+        <span class="badge badge-pill bg-warning-400 ml-auto ml-md-0">@notificationCount</span>
+    }
+</a>
+
+<div class="dropdown-menu dropdown-menu-right dropdown-content wmin-md-350">
+    <div class="dropdown-content-header">
+        <span class="font-weight-semibold">Görüşlər</span>
+    </div>
+
+    <div class="dropdown-content-body dropdown-scrollable">
+        <ul class="media-list">
+
+            @if (Model != null)
+            {
+                @foreach (var meeting in Model)
+                {
+                    <li class="media">
+                        <div class="media-body">
+                            <div class="media-title">
+                                <a asp-controller="RestaurantMeetings" asp-action="Get" asp-route-id="@meeting.Id">
+                                    <span class="font-weight-semibold">Şəxs: @meeting.Person </span>
+                                </a>
+                                <span class="text-muted float-right font-size-sm">@meeting.Remaining</span>
+                            </div>
+
+                            <span class="text-muted">Mövzü: @meeting.Subject</span>
+                        </div>
+                    </li>
+                }
+            }
+
+        </ul>
+    </div>
+
+    <div class="dropdown-content-footer justify-content-center p-0">
+        <a asp-controller="RestaurantMeetings" asp-action="Index" asp-route-page="1" class="bg-light text-grey w-100 py-2" title="Hammısı"><i class="icon-menu7 d-block top-0"></i></a>
+    </div>
+</div>

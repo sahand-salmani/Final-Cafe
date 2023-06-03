@@ -1,0 +1,49 @@
+﻿@model Infrastructure.Roles.ViewModels.AddRoleVm;
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Mövqe əlavə etmək";
+    ViewData["MainTitle"] = "Mövqelər";
+    ViewData["SubTitle"] = "Əlavə et";
+    ViewData["users"] = "active";
+}
+@section scripts
+{
+    
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+
+}
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Mövqelər</h5>
+        <div class="header-elements">
+            <div class="list-icons">
+                <a class="list-icons-item" data-action="collapse"></a>
+                <a class="list-icons-item" data-action="reload"></a>
+                <a class="list-icons-item" data-action="remove"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form asp-action="Add" asp-controller="RoleManagement" asp-area="Panel" method="post">
+            <fieldset class="mb-3">
+                <legend class="text-uppercase font-size-sm font-weight-bold">Mövqe detalları</legend>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Mövqe adı</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="RoleName">
+                    </div>
+                    <span asp-validation-for="RoleName" class="text-danger"></span>
+                </div>
+                
+                <button type="submit" class="btn bg-blue ml-3">Əlavə et<i class="icon-paperplane ml-2"></i></button>
+            </fieldset>
+        </form>
+
+    </div>
+</div>

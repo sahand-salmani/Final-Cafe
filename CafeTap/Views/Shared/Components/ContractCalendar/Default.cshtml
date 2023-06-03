@@ -1,0 +1,131 @@
+﻿@model List<Infrastructure.Contracts.ViewModels.ContractCalendarVm>
+
+@{
+    @if (Model != null)
+    {
+        if (Model.Any())
+        {
+            foreach (var contractCalendarVm in Model)
+            {
+                contractCalendarVm.Url = Url.Action("Get", "Contracts", new { id = contractCalendarVm.Id });
+            }
+        }
+    }
+}
+
+<!-- Event colors -->
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Təqvim</h5>
+    </div>
+
+    <div class="card-body">
+        <p class="mb-3">Təqvim</p>
+        <div class="fullcalendar-event-colors"></div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    var FullCalendarStyling = function() {
+
+        var model = @Json.Serialize(Model);
+
+        //
+        // Setup module components
+        //
+
+        // External events
+        var _componentFullCalendarStyling = function () {
+            if (typeof FullCalendar == 'undefined') {
+                console.warn('Warning - Fullcalendar files are not loaded.');
+                return;
+            }
+
+
+            // Add events
+            // ------------------------------
+
+            // Event colors
+            var eventColors = model;
+
+            
+
+            // Initialization
+            // ------------------------------
+
+            //
+            // Event colors
+            //
+            function toJSONLocal(date) {
+                var local = new Date(date);
+                local.setMinutes(date.getMinutes() - date.getTimezoneOffset());
+                return local.toJSON().slice(0, 10);
+            };
+            var today = new Date();
+            today = toJSONLocal(today);
+
+            // Define element
+            var calendarEventColorsElement = document.querySelector('.fullcalendar-event-colors');
+
+            // Initialize
+            if (calendarEventColorsElement) {
+                var calendarEventColorsInit = new FullCalendar.Calendar(calendarEventColorsElement, {
+                    plugins: ['dayGrid', 'interaction'],
+                    header: {
+                        left: 'prev,next today',
+                        center: 'title',
+                        right: 'dayGridMonth,dayGridWeek,dayGridDay'
+                    },
+                    defaultDate: today,
+                    editable: true,
+                    events: eventColors
+                }).render();
+            }
+
+
+            //
+            // Event background colors
+            //
+
+            // Define element
+            var calendarEventBgColorsElement = document.querySelector('.fullcalendar-background-colors');
+
+            // Initialize
+            if (calendarEventBgColorsElement) {
+                var calendarEventBgColorsInit = new FullCalendar.Calendar(calendarEventBgColorsElement, {
+                    plugins: ['dayGrid', 'interaction'],
+                    header: {
+                        left: 'prev,next today',
+                        center: 'title',
+                        right: 'dayGridMonth,dayGridWeek,dayGridDay'
+                    },
+                    defaultDate: today,
+                    editable: true,
+                    events: eventBackgroundColors
+                }).render();
+            }
+        };
+
+
+        //
+        // Return objects assigned to module
+        //
+
+        return {
+            init: function () {
+                _componentFullCalendarStyling();
+            }
+        }
+    }();
+
+
+    // Initialize module
+    // ------------------------------
+
+    document.addEventListener('DOMContentLoaded', function () {
+        FullCalendarStyling.init();
+    });
+
+</script>

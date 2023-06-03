@@ -1,0 +1,157 @@
+﻿@model DataAccess.Pagination.PaginatedList<Domain.Users.ApplicationUser>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "İstifadəçilərin siyahısı";
+    ViewData["MainTitle"] = "İstifadəçilər";
+    ViewData["SubTitle"] = "Siyahı";
+    ViewData["users"] = "active";
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+    int counter = 1;
+    int modalCounter = 1;
+}
+<partial name="_Validation" />
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title font-weight-bold">İstifadəçilər və mövqeylər Bölməsi</h5>
+    </div>
+
+    <div class="card-body">
+        <ul class="nav nav-tabs nav-tabs-highlight">
+            <li class="nav-item"><a asp-controller="UserManagement" asp-action="Index" asp-route-page="1" class="nav-link active">İstifadəçilər</a></li>
+            <li class="nav-item"><a asp-controller="RoleManagement" asp-action="Index" asp-route-page="1" class="nav-link">Mövqeylər</a></li>
+            <li class="nav-item"><a asp-controller="UserManagement" asp-action="AllTokens" asp-route-page="1" class="nav-link">Tokenlər</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">İstifadəçilər</h5>
+        <div class="header-elements">
+            <div class="list-icons">
+                <a class="list-icons-item" data-action="collapse"></a>
+                <a class="list-icons-item" data-action="reload"></a>
+                <a class="list-icons-item" data-action="remove"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <table class="table datatable-sorting">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>İstifadəçi adı</th>
+                <th>Mövqe</th>
+                <th class="text-center">Əməliyyatlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                @for (var i = 0; i < Model.Count; i++)
+                {
+                    <tr>
+                        <td>@(i+1)</td>
+                        <td>@Model[i].UserName</td>
+                        @if (Model[i].Roles.Any())
+                        {
+                            if (Model[i].Roles.Count > 1)
+                            {
+                                <td>@string.Join(" , ", Model[i].Roles.Select(e => e.Role.Name))</td>
+                            }
+                            else
+                            {
+                                <td>@Model[i].Roles.Select(e => e.Role.Name).FirstOrDefault()</td>
+                            }
+                        }
+                        else
+                        {
+                            <td>-</td>
+                        }
+
+                        <td class="text-center">
+                            <div class="list-icons">
+                                <div class="dropdown">
+                                    <a href="#" class="list-icons-item" data-toggle="dropdown">
+                                        <i class="icon-menu9"></i>
+                                    </a>
+
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a asp-controller="UserManagement" asp-action="EditUserRole" asp-route-id="@Model[i].Id" class="dropdown-item"><i class="icon-pencil"></i>Redaktə et</a>
+                                        <a data-toggle="modal" data-target="#modal_theme_danger-@counter" class="dropdown-item"><i class="icon-eraser3"></i>Sil</a>
+                                        @{
+                                            counter += 1;
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+<!-- /default ordering -->
+
+
+@foreach (var user in Model)
+{
+    <div id="modal_theme_danger-@modalCounter" class="modal fade" tabindex="-1">
+        @{
+            modalCounter += 1;
+        }
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-danger">
+                    <h6 class="modal-title">İstifadəçi silinəcək: @user.UserName</h6>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <h6 class="font-weight-semibold">Vacib qeyd!!!</h6>
+                    <p>Bu istifadəçini silmək istədiyinizdən əminsiniz mi?</p>
+                </div>
+
+                <div class="modal-footer">
+                    <form asp-action="Delete" asp-controller="UserManagement" asp-area="Panel" asp-route-id="@user.Id" method="post">
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Bağla</button>
+                        <button type="submit" class="btn bg-danger">Sil</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@{
+    var start = Math.Max((Model.PageIndex - 3), 1);
+    int ends = Math.Min((Model.PageIndex + 3), Model.TotalPages);
+}
+
+
+<ul class="pagination align-self-end ">
+    <li class="page-item @prevDisabled"><a asp-action="Index" asp-controller="UserManagement" asp-route-page="@(Model.PageIndex - 1)" class="page-link">&larr; &nbsp; Prev</a></li>
+    @for (int i = start; i <= ends; i++)
+    {
+        <td>
+            @if (i != Model.PageIndex)
+            {
+                <li class="page-item"><a asp-action="Index" asp-controller="UserManagement" asp-route-page="@i" class="page-link">@i</a></li>
+            }
+            else if (i == Model.PageIndex)
+            {
+                <li class="page-item active"><a asp-action="Index" asp-controller="UserManagement" asp-route-page="@i" class="page-link">@i</a></li>
+            }
+            else
+            {
+                <li class="page-item disabled"><a asp-action="Index" asp-controller="UserManagement" asp-route-page="@i" class="page-link">@i</a></li>
+            }
+        </td>
+    }
+    <li class="page-item @nextDisabled"><a asp-action="Index" asp-controller="UserManagement" asp-route-page="@(Model.PageIndex+1)" class="page-link">Next &nbsp; &rarr;</a></li>
+</ul>

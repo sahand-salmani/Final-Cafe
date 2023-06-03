@@ -1,0 +1,124 @@
+﻿@model Infrastructure.EmployeeFaults.ViewModels.UpdateEmployeeFaultVm
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Redaktə Xəta";
+    ViewData["MainTitle"] = "Xəta";
+    ViewData["SubTitle"] = "Redaktə";
+    ViewData["employees"] = "active";
+}
+@section scripts
+{
+
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Limitless/global_assets/js/main/jquery.min.js"></script>
+    <script src="~/Limitless/global_assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/loaders/blockui.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+
+    <script src="~/Limitless/global_assets/js/plugins/forms/validation/validate.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switch.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/purify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/sortable.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_actions.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_select2.js"></script>
+
+    <!-- Theme JS files -->
+    <script src="~/Limitless/global_assets/js/plugins/ui/moment/moment.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/daterangepicker.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/anytime.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.date.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.time.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/legacy.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/notifications/jgrowl.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/picker_date.js"></script>
+
+    <script src="~/Limitless/global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+
+
+}
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Xəta əlavə et</h5>
+        <div class="header-elements">
+            <div class="list-icons">
+                <a class="list-icons-item" data-action="collapse"></a>
+                <a class="list-icons-item" data-action="reload"></a>
+                <a class="list-icons-item" data-action="remove"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <p class="mb-4">İşçi xətası əlavə et</p>
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form asp-action="Update" asp-controller="EmployeeFaults" asp-area="Panel" method="post">
+            <fieldset class="mb-3">
+                <legend class="text-uppercase font-size-sm font-weight-bold">Xəta məlumatları </legend>
+
+
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Qeyd</label>
+                    <div class="col-lg-6">
+                        <textarea class="form-control" asp-for="@Model.Note"></textarea>
+                    </div>
+                </div>
+                <span asp-validation-for="@Model.Note" class="text-danger"></span>
+
+
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Səbəb</label>
+                    <div class="col-lg-6">
+                        <textarea class="form-control" asp-for="@Model.Reason"></textarea>
+                    </div>
+                </div>
+                <span asp-validation-for="@Model.Reason" class="text-danger"></span>
+
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Baş Verib</label>
+                    <div class="col-lg-3">
+                        <input type="date" asp-for="DateTime" class="form-control pickadate-accessibility" placeholder="Try me&hellip;">
+                    </div>
+                </div>
+                <span asp-validation-for="DateTime" class="text-danger"></span>
+                
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Işçiyə bilidirib mi</label>
+                    <div class="col-lg-3">
+                        @if (Model.IsNotified)
+                        {
+                            <input type="checkbox" asp-for="IsNotified" class="form-check-input-styled-success" checked="checked" data-fouc>
+                        }
+                        else
+                        {
+                            <input type="checkbox" asp-for="IsNotified" class="form-check-input-styled-success" data-fouc>
+                        }
+                    </div>
+                </div>
+
+
+                <input hidden asp-for="EmployeeId" value="@Model.EmployeeId" />
+                <input hidden asp-for="Id" value="@Model.Id" />
+
+
+
+
+                <button type="submit" class="btn bg-orange ml-3">Redaktə Et<i class="icon-paperplane ml-2"></i></button>
+            </fieldset>
+        </form>
+
+    </div>
+</div>
+

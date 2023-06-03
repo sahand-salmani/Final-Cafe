@@ -1,0 +1,44 @@
+﻿using AutoMapper;
+using DataAccess.Constants;
+using DataAccess.Database;
+using DataAccess.Persistence;
+using Domain.Models;
+using Infrastructure.Common;
+using Infrastructure.EmployeePayments.Commands;
+using MediatR;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace Infrastructure.EmployeePayments.CommandHandlers
+{
+    public class CreateEmployeePaymentCommandHandler : IRequestHandler<CreateEmployeePaymentCommand, OperationResult<int>>
+    {
+        private readonly DatabaseContext _context;
+        private readonly IMapper _mapper;
+        private readonly IPersistence _persistence;
+
+        public CreateEmployeePaymentCommandHandler(DatabaseContext context,IMapper mapper,IPersistence persistence)
+        {
+            _context = context;
+            _mapper = mapper;
+            _persistence = persistence;
+        }
+        public async Task<OperationResult<int>> Handle(CreateEmployeePaymentCommand request, CancellationToken cancellationToken)
+        {
+            var result = new OperationResult<int>();
+
+            var empPayment = _mapper.Map<EmployeePayment>(request.Model);
+            await _context.EmployeePayments.AddAsync(empPayment, cancellationToken);
+
+            var persistence = await _persistence.SaveChangesAsync();
+
+            if (persistence == 0)
+            {
+                return result.AddError(ErrorMessages.CouldNotAddToDatabase);
+            }
+
+            result.Entity = empPayment.Id;
+            return result;
+        }
+    }
+}

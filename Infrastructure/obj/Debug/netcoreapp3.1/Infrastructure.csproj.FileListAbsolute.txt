@@ -1,0 +1,75 @@
+D:\PrivetProjects\CafeTap\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+D:\PrivetProjects\CafeTap\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+D:\PrivetProjects\CafeTap\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+D:\PrivetProjects\CafeTap\Infrastructure\bin\Debug\netcoreapp3.1\Domain.dll
+D:\PrivetProjects\CafeTap\Infrastructure\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\PrivetProjects\CafeTap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.AssemblyReference.cache
+D:\PrivetProjects\CafeTap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\PrivetProjects\CafeTap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+D:\PrivetProjects\CafeTap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+D:\PrivetProjects\CafeTap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+D:\PrivetProjects\CafeTap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+D:\PrivetProjects\CafeTap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+D:\PrivetProjects\CafeTap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+D:\PrivetProjects\CafeTap\Infrastructure\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\PrivetProjects\CafeTap\Infrastructure\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb

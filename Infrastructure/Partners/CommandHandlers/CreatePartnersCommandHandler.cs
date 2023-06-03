@@ -1,0 +1,48 @@
+﻿using AutoMapper;
+using DataAccess.Constants;
+using DataAccess.Database;
+using DataAccess.Persistence;
+using Domain.Models;
+using Infrastructure.Common;
+using Infrastructure.Partners.Commands;
+using MediatR;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace Infrastructure.Partners.CommandHandlers
+{
+    public class CreatePartnersCommandHandler : IRequestHandler<CreatePartnersCommand, OperationResult<int>>
+    {
+        private readonly DatabaseContext _context;
+        private readonly IMapper _mapper;
+        private readonly IPersistence _persistence;
+
+        public CreatePartnersCommandHandler(DatabaseContext context, IMapper mapper, IPersistence persistence)
+        {
+            _context = context;
+            _mapper = mapper;
+            _persistence = persistence;
+        }
+
+        public async Task<OperationResult<int>> Handle(CreatePartnersCommand request, CancellationToken cancellationToken)
+        {
+            var result = new OperationResult<int>();
+
+            var partner = _mapper.Map<Partner>(request.Model);
+            await _context.Partners.AddAsync(partner,cancellationToken);
+
+            var persistence = await _persistence.SaveChangesAsync();
+
+            if (persistence == 0)
+            {
+                return result.AddError(ErrorMessages.CouldNotAddToDatabase);
+            }
+
+            return result;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+﻿@model Infrastructure.Users.ViewModels.EditUserRoleVm;
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "İstifadəçi mövqeyinin redaktəsi";
+    ViewData["MainTitle"] = "İstifadəçi mövqeyi";
+    ViewData["SubTitle"] = "Redaktə et";
+    ViewData["users"] = "active";
+}
+@section scripts
+{
+    <script src="~/limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/limitless/global_assets/js/plugins/notifications/pnotify.min.js"></script>
+    <script src="~/limitless/global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+    <script src="~/limitless/global_assets/js/demo_pages/form_multiselect.js"></script>
+
+}
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">İstifadəçi mövqeyi</h5>
+        <div class="header-elements">
+            <div class="list-icons">
+                <a class="list-icons-item" data-action="collapse"></a>
+                <a class="list-icons-item" data-action="reload"></a>
+                <a class="list-icons-item" data-action="remove"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form asp-action="EditUserRole" asp-controller="UserManagement" method="post">
+            <fieldset>
+                <legend class="font-weight-semibold text-uppercase font-size-sm">
+                    <i class="icon-file-text2 mr-2"></i>
+                    İstifadəçi məlumatı
+                    <a href="#" class="float-right text-default" data-toggle="collapse" data-target="#demo1">
+                        <i class="icon-circle-down2"></i>
+                    </a>
+                </legend>
+
+                <div class="collapse show" id="demo1">
+                    <div class="form-group">
+                        <label>İstifadəçi adı</label>
+                        <input class="form-control" disabled asp-for="UserName" value="@Model.UserName" placeholder="İstifadəçi adı">
+                    </div>
+
+
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend class="font-weight-semibold text-uppercase font-size-sm">
+                    <i class="icon-file-text2 mr-2"></i>
+                    Mövqelər
+                    <a href="#" class="float-right text-default" data-toggle="collapse" data-target="#demo1">
+                        <i class="icon-circle-down2"></i>
+                    </a>
+                </legend>
+
+                <div class="collapse show" id="demo1">
+
+                    <div class="input-group">
+                        <select class="form-control multiselect-toggle-selection" asp-for="RoleId" asp-items="@Model.SelectList" multiple="multiple" data-fouc>
+                        </select>
+
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-light multiselect-toggle-selection-button">Hamısını seç</button>
+                        </div>
+                    </div>
+
+                </div>
+            </fieldset>
+
+            <input hidden asp-for="Id" value="@Model.Id" />
+
+            <div class="text-right">
+                <button type="submit" class="btn btn-warning">Redaktə et<i class="icon-paperplane ml-2"></i></button>
+            </div>
+        </form>
+    </div>
+</div>

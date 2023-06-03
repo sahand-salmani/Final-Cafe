@@ -1,0 +1,180 @@
+﻿@model Infrastructure.Interns.ViewModels.GetInternVm;
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Intern Redaktə Et";
+    ViewData["MainTitle"] = "Intern";
+    ViewData["SubTitle"] = "Redaktə Et";
+    ViewData["interns"] = "active";
+}
+@section scripts
+{
+
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+    <script src="~/Limitless/global_assets/js/demo_pages/form_inputs.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_validation.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/validation/validate.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switch.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/purify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/sortable.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/uploader_bootstrap.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_actions.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_select2.js"></script>
+
+    <link href="~/lib/summernote/summernote-bs5.css" rel="stylesheet" />
+    <script src="~/Limitless/global_assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/loaders/blockui.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/editors/summernote/summernote.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/editor_summernote.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+
+    <!-- Theme JS files -->
+    <script src="~/Limitless/global_assets/js/plugins/ui/moment/moment.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/daterangepicker.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/anytime.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.date.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.time.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/legacy.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/notifications/jgrowl.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/picker_date.js"></script>
+
+    <script src="~/Limitless/global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+
+
+}
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title font-weight-bold">İnternlər Bölmələsi</h5>
+    </div>
+
+    <div class="card-body">
+        <ul class="nav nav-tabs nav-tabs-highlight">
+            <li class="nav-item"><a asp-controller="Interns" asp-action="Index" asp-route-page="1" class="nav-link active">İnternlər</a></li>
+        </ul>
+        <div class="d-md-flex align-items-md-center flex-md-wrap text-center text-md-left">
+            <ul class="list-inline list-inline-condensed mb-0">
+                <li class="list-inline-item dropdown">
+                    <a asp-action="Add" asp-controller="Interns" class="btn btn-link text-default"><i class="icon-add"></i> Yeni <strong>İntern</strong> əlavə et</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Intern Redaktə Et</h5>
+        <div class="header-elements">
+        </div>
+    </div>
+
+    <div class="card-body">
+        <p class="mb-4">İntern haqqında məlumatlar</p>
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form asp-action="update" asp-controller="Interns" asp-area="Panel" asp-route-id="@Model.Id" method="post" enctype="multipart/form-data">
+            <fieldset class="mb-3">
+                <legend class="text-uppercase font-size-sm font-weight-bold">İntern məlumatları</legend>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Ad və Soyad</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="Name">
+                    </div>
+                </div>
+                <span asp-validation-for="Name" class="text-danger"></span>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Universitet</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="University">
+                    </div>
+                </div>
+                <span asp-validation-for="University" class="text-danger"></span>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Mövqe</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="Position">
+                    </div>
+                </div>
+                <span asp-validation-for="Position" class="text-danger"></span>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Mobil Nömrə</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="PhoneNumber">
+                    </div>
+                </div>
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Adres</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="Address">
+                    </div>
+                </div>
+                <span asp-validation-for="Address" class="text-danger"></span>
+
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Email</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="Email">
+                    </div>
+                </div>
+                <span asp-validation-for="Email" class="text-danger"></span>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Başlama tarixi</label>
+                    <div class="col-lg-3">
+                        <input type="date" asp-for="StartsAt" class="form-control pickadate-accessibility" placeholder="Try me&hellip;">
+                    </div>
+                </div>
+                <span asp-validation-for="StartsAt" class="text-danger"></span>
+
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Bitmə tarixi</label>
+                    <div class="col-lg-3">
+                        <input type="date" asp-for="FinishedAt" class="form-control pickadate-accessibility" placeholder="Try me&hellip;">
+                    </div>
+                </div>
+                <span asp-validation-for="FinishedAt" class="text-danger"></span>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">İşə götürülüb</label>
+                    <div class="col-lg-3">
+                        @if (Model.IsApprovedForJob)
+                        {
+                            <input type="checkbox" asp-for="IsApprovedForJob" class="form-check-input-styled-success" checked="checked" data-fouc>
+                        }
+                        else
+                        {
+                            <input type="checkbox" asp-for="IsApprovedForJob" class="form-check-input-styled-success" data-fouc>
+                        }
+                    </div>
+                </div>
+                <span asp-validation-for="IsApprovedForJob" class="text-danger"></span>
+
+                <input hidden asp-for="Id" value="@Model.Id"/>
+
+                <button type="submit" class="btn bg-blue ml-3">Redaktə Et<i class="icon-paperplane ml-2"></i></button>
+            </fieldset>
+        </form>
+
+    </div>
+</div>

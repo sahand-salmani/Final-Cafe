@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Search City Contracts";
+    ViewData["MainTitle"] = "City Contracts";
+    ViewData["SubTitle"] = "Search";
+    ViewData["restaurants"] = "active";
+}
+@section scripts
+{
+    <script src="~/Limitless/global_assets/js/plugins/ui/fab.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/sticky.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/prism.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/extra_fab.js"></script>
+
+}
+<div class="card">
+    <div class="card-body">
+        <h5 class="mb-3">Müqaviləı şəhərlə axtarış</h5>
+
+        <form asp-action="SearchByCityName" asp-route-page="1" asp-controller="Contracts" asp-area="Panel" method="get">
+            <div class="input-group mb-3">
+                <div class="form-group-feedback form-group-feedback-left">
+                    <input type="text" name="name" class="form-control form-control-lg" placeholder="Şəhər">
+                    <div class="form-control-feedback form-control-feedback-lg">
+                        <i class="icon-search4 text-muted"></i>
+                    </div>
+                </div>
+
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary btn-lg">Axtar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- /search field -->

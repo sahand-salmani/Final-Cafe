@@ -1,0 +1,142 @@
+﻿@model Infrastructure.Restaurants.ViewModels.UpdateRestaurantVm
+
+@{ Layout = "_Layout";
+    ViewData["Title"] = "Restoranı redaktə et";
+    ViewData["MainTitle"] = "Restoranlar";
+    ViewData["SubTitle"] = "Redaktə et";
+    ViewData["restaurants"] = "active";
+}
+@section scripts
+{
+
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+    <script src="~/Limitless/global_assets/js/demo_pages/form_inputs.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_validation.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/validation/validate.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switch.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/purify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/sortable.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/uploader_bootstrap.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_actions.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_select2.js"></script>
+
+
+}
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title font-weight-bold">Restoran Bölmələrı</h5>
+    </div>
+
+    <div class="card-body">
+        <ul class="nav nav-tabs nav-tabs-highlight">
+            <li class="nav-item"><a asp-controller="Restaurants" asp-action="Index" asp-route-page="1" class="nav-link active">Restoranlar</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantStatuses" asp-action="Index" asp-route-page="1" class="nav-link">Statuslar</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantNetworks" asp-action="Index" asp-route-page="1" class="nav-link">Restoran şəbəkələri</a></li>
+            <li class="nav-item"><a asp-controller="Contracts" asp-action="Index" asp-route-page="1" class="nav-link">Müqavilələr</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantMeetings" asp-action="Index" asp-route-page="1" class="nav-link">Görüşlər</a></li>
+            <li class="nav-item"><a asp-controller="Partners" asp-action="Index" asp-route-page="1" class="nav-link">Partnerlər</a></li>
+            <li class="nav-item"><a asp-controller="BlackList" asp-action="Index" asp-route-page="1" class="nav-link">Qara siyahı</a></li>
+        </ul>
+        <div class="d-md-flex align-items-md-center flex-md-wrap text-center text-md-left">
+            <ul class="list-inline list-inline-condensed mb-0">
+                <li class="list-inline-item dropdown">
+                    <a asp-action="Add" asp-controller="Restaurants" class="btn btn-link text-default"><i class="icon-add"></i> Yeni <strong>restoran</strong> əlavə et</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Restoranı redaktə et</h5>
+        <div class="header-elements">
+            <div class="list-icons">
+                <a class="list-icons-item" data-action="collapse"></a>
+                <a class="list-icons-item" data-action="reload"></a>
+                <a class="list-icons-item" data-action="remove"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form asp-action="Update" asp-controller="Restaurants" asp-area="Panel" asp-route-id="@Model.Id" method="post" enctype="multipart/form-data">
+            <fieldset class="mb-3">
+                <legend class="text-uppercase font-size-sm font-weight-bold">Restoranlar</legend>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Restoran adı</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="@Model.Name">
+                    </div>
+                </div>
+                <span asp-validation-for="@Model.Name" class="text-danger"></span>
+
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Ünvan</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="@Model.Address">
+                    </div>
+                </div>
+                <span asp-validation-for="@Model.Address" class="text-danger"></span>
+
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Əlaqə nömrəsi</label>
+                    <div class="col-lg-5">
+                        <input class="form-control" asp-for="@Model.PhoneNumber">
+                    </div>
+                </div>
+                <span asp-validation-for="@Model.PhoneNumber" class="text-danger"></span>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Şəhər </label>
+                    <div class="col-lg-5">
+                        <input class="form-control" asp-for="@Model.City">
+                    </div>
+                </div>
+                <span asp-validation-for="@Model.City" class="text-danger"></span>
+
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Status</label>
+                    <div class="form-check form-check-inline">
+                        <div class="col-lg-3">
+                            <select class="form-control select-fixed-single" asp-for="@Model.StatusId" asp-items="@Model.Statuses" data-fouc>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Şəbəkə</label>
+                    <div class="form-check form-check-inline">
+                        <div class="col-lg-3">
+                            <select class="form-control select-fixed-single" asp-for="@Model.NetworkId" asp-items="@Model.Networks" data-fouc>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <input hidden asp-for="Id" value="@Model.Id" />
+
+                <button type="submit" class="btn bg-orange ml-3">Redaktə et<i class="icon-paperplane ml-2"></i></button>
+            </fieldset>
+        </form>
+
+    </div>
+</div>

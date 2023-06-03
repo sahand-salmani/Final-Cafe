@@ -1,0 +1,12 @@
+﻿@model Infrastructure.Interns.ViewModels.GetInternVm
+
+@{
+    ViewData["interns"] = "active";
+}
+<h1>
+    @Model.Name
+</h1>
+
+<form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <button type="submit">Sil</button>
+</form>

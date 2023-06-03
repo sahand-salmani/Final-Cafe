@@ -1,0 +1,1554 @@
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\appsettings.json
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.exe
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.deps.json
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.runtimeconfig.json
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.runtimeconfig.dev.json
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.pdb
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Collection.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.ExpressionMapping.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\MediatR.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\SixLabors.ImageSharp.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Domain.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Infrastructure.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.AssemblyReference.cache
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.GeneratedMSBuildEditorConfig.editorconfig
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.AssemblyInfoInputs.cache
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.AssemblyInfo.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.CoreCompileInputs.cache
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.MvcApplicationPartsAssemblyInfo.cache
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\staticwebassets\CafeTap.StaticWebAssets.Manifest.cache
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\staticwebassets\CafeTap.StaticWebAssets.xml
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\scopedcss\bundle\CafeTap.styles.css
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorTargetAssemblyInfo.cache
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.CopyComplete
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.dll
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.pdb
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.genruntimeconfig.cache
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.Views.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.Views.pdb
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorAssemblyInfo.cache
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorAssemblyInfo.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.TagHelpers.input.cache
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.TagHelpers.output.cache
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorCoreGenerate.cache
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorTargetAssemblyInfo.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.Views.pdb
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\_ViewImports.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\GetById.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\GetById.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.MvcApplicationPartsAssemblyInfo.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LimitlessNavbar.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Edit.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_Validation.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\Humanizer.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\az\Humanizer.resources.dll
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\RestaurantContacts.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Search.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\ContractPayments.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\SearchByName.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\GetById.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\SearchByName.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\SearchByName.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\EmployeePayments.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\GetEmployeePrePayments.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByCity.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByCityName.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\Login\Login.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\_ViewImports.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\UserNavbarOptions\Default.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\Register\Register.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\AddClaims.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\CreateTokenForRegistration.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\EditUserRole.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Create.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\UpdateStatus.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\AccessDenied.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\EmployeePunishments.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\NetworkRestaurants.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\SearchByName.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Create.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\EmployeeFaults.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\AllTokens.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\MiniProfiler.AspNetCore.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\MiniProfiler.AspNetCore.Mvc.dll
+D:\PrivetProjects\CafeTap\CafeTap\bin\Debug\netcoreapp3.1\MiniProfiler.Shared.dll
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\Test.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\GetYearlyInComePerMonth\Default.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LeastTimeRemainingContracts\Default.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_DashboardAction.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LeastTimeRemainingMeetings\Default.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByName.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\SearchByName.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\SearchByName.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\SearchByName.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\SearchByName.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Contracts.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Restaurants.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CountInfo\Default.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Get.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Messages.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_DashboardNavigation.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\EmployeeContractPaymentIncomeCurrentYear.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\CurrentYearIncomePerMonth.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\MonthlyIncomePerYears.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\YearlyContractPerYearIncome\Default.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\YearlyContractIncomePerYears.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MonthlyContractPerYearIncome\Default.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\Search.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\SearchByYearAndContractType.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Error\Error.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MeetingsCalendar\Default.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Get.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractFinishNotification\Default.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MeetingsFinishNotification\Default.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Settings\DashBoardSettings.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractCalendar\Default.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractMeetingCalendar\Default.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Index.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Add.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Update.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Search.cshtml.g.cs
+D:\PrivetProjects\CafeTap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\SearchByName.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.StaticWebAssets.xml
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.exe
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.deps.json
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.runtimeconfig.json
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.runtimeconfig.dev.json
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.Views.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.Views.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Collection.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.ExpressionMapping.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\MiniProfiler.AspNetCore.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\MiniProfiler.AspNetCore.Mvc.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\MiniProfiler.Shared.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\SixLabors.ImageSharp.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\az\Humanizer.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.AssemblyReference.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.AssemblyInfoInputs.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.AssemblyInfo.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.CoreCompileInputs.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorAssemblyInfo.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorAssemblyInfo.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\staticwebassets\CafeTap.StaticWebAssets.Manifest.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.TagHelpers.input.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.TagHelpers.output.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorCoreGenerate.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\Login\Login.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\Register\Register.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\SearchByName.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\ContractPayments.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Get.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByCity.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByCityName.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByName.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\AccessDenied.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\Test.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\EmployeeFaults.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\EmployeePayments.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\SearchByName.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\EmployeePunishments.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\EmployeeContractPaymentIncomeCurrentYear.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Search.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\GetById.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\SearchByName.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Search.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\GetEmployeePrePayments.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Contracts.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\SearchByName.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\RestaurantContacts.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Create.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Get.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\SearchByName.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\NetworkRestaurants.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\SearchByName.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Create.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Restaurants.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\GetById.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\SearchByName.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\UpdateStatus.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\AddClaims.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Edit.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Settings\DashBoardSettings.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_DashboardAction.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_DashboardNavigation.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_Validation.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\GetById.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\SearchByName.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Add.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\SearchByName.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Update.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\CurrentYearIncomePerMonth.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\MonthlyIncomePerYears.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\Search.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\SearchByYearAndContractType.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\YearlyContractIncomePerYears.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\AllTokens.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\CreateTokenForRegistration.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\EditUserRole.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Error\Error.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractCalendar\Default.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractFinishNotification\Default.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractMeetingCalendar\Default.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CountInfo\Default.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\GetYearlyInComePerMonth\Default.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LeastTimeRemainingContracts\Default.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LeastTimeRemainingMeetings\Default.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MeetingsCalendar\Default.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MeetingsFinishNotification\Default.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MonthlyContractPerYearIncome\Default.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\UserNavbarOptions\Default.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\YearlyContractPerYearIncome\Default.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LimitlessNavbar.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Messages.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorTargetAssemblyInfo.cache
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorTargetAssemblyInfo.cs
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.Views.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.CopyComplete
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.dll
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.pdb
+C:\Users\User\Dropbox\PC\Desktop\Cafe-master\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.genruntimeconfig.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.exe
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.deps.json
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.runtimeconfig.json
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.runtimeconfig.dev.json
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.Views.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.Views.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Collection.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.ExpressionMapping.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\SixLabors.ImageSharp.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\az\Humanizer.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.AssemblyReference.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.AssemblyInfoInputs.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.AssemblyInfo.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.CoreCompileInputs.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorAssemblyInfo.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorAssemblyInfo.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\staticwebassets\CafeTap.StaticWebAssets.Manifest.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\staticwebassets\CafeTap.StaticWebAssets.xml
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\scopedcss\bundle\CafeTap.styles.css
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.TagHelpers.input.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.TagHelpers.output.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorCoreGenerate.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\Login\Login.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\Register\Register.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\_ViewImports.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\SearchByName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\ContractPayments.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Get.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByCity.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByCityName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\AccessDenied.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\Test.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\EmployeeFaults.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\EmployeePayments.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\SearchByName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\EmployeePunishments.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\EmployeeContractPaymentIncomeCurrentYear.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Search.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\GetById.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\SearchByName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Search.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\GetEmployeePrePayments.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Contracts.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\SearchByName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\RestaurantContacts.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Create.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Get.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\SearchByName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\NetworkRestaurants.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\SearchByName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Create.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Restaurants.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\GetById.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\SearchByName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\UpdateStatus.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\AddClaims.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Edit.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Settings\DashBoardSettings.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_DashboardAction.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_DashboardNavigation.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_Validation.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\GetById.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\SearchByName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Add.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\SearchByName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Update.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\CurrentYearIncomePerMonth.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\MonthlyIncomePerYears.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\Search.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\SearchByYearAndContractType.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\YearlyContractIncomePerYears.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\AllTokens.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\CreateTokenForRegistration.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\EditUserRole.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\_ViewImports.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Error\Error.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractCalendar\Default.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractFinishNotification\Default.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractMeetingCalendar\Default.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CountInfo\Default.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\GetYearlyInComePerMonth\Default.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LeastTimeRemainingContracts\Default.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LeastTimeRemainingMeetings\Default.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MeetingsCalendar\Default.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MeetingsFinishNotification\Default.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MonthlyContractPerYearIncome\Default.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\UserNavbarOptions\Default.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\YearlyContractPerYearIncome\Default.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LimitlessNavbar.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Messages.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorTargetAssemblyInfo.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorTargetAssemblyInfo.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.Views.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.CopyComplete
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.pdb
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.genruntimeconfig.cache
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\SearchByName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\Index.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\SearchByName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Bogus.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\RandomGenerator\CreateRestaurant.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\RestaurantDebts.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\SearchRestaurantDebtByContractName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\SearchRestaurantDebtByName.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\Password\ChangePassword.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\EmployeePaymentDetails.cshtml.g.cs
+C:\Users\ValikhanlouSalmani\Desktop\caf\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\SearchEmployeePaymentDetails.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.exe
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.deps.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.runtimeconfig.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.runtimeconfig.dev.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.Views.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.Views.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Collection.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.ExpressionMapping.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Bogus.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\SixLabors.ImageSharp.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\az\Humanizer.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.AssemblyReference.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.AssemblyInfoInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.AssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.CoreCompileInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorAssemblyInfo.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorAssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\staticwebassets\CafeTap.StaticWebAssets.Manifest.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\staticwebassets\CafeTap.StaticWebAssets.xml
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\scopedcss\bundle\CafeTap.styles.css
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.TagHelpers.input.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.TagHelpers.output.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorCoreGenerate.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\Login\Login.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\Password\ChangePassword.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\Register\Register.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\_ViewImports.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\ContractPayments.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Get.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByCity.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByCityName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\AccessDenied.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\Test.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\EmployeeFaults.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\EmployeePaymentDetails.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\EmployeePayments.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\SearchEmployeePaymentDetails.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\EmployeePunishments.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\EmployeeContractPaymentIncomeCurrentYear.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Search.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\GetById.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Search.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\GetEmployeePrePayments.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Contracts.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\RestaurantContacts.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Create.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Get.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\NetworkRestaurants.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Create.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Restaurants.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\GetById.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\RestaurantDebts.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\SearchRestaurantDebtByContractName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\SearchRestaurantDebtByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\UpdateStatus.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\AddClaims.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Edit.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Settings\DashBoardSettings.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_DashboardAction.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_DashboardNavigation.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_Validation.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\GetById.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\CurrentYearIncomePerMonth.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\MonthlyIncomePerYears.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\Search.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\SearchByYearAndContractType.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\YearlyContractIncomePerYears.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\AllTokens.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\CreateTokenForRegistration.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\EditUserRole.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\_ViewImports.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Error\Error.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\RandomGenerator\CreateRestaurant.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractCalendar\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractFinishNotification\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractMeetingCalendar\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CountInfo\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\GetYearlyInComePerMonth\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LeastTimeRemainingContracts\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LeastTimeRemainingMeetings\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MeetingsCalendar\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MeetingsFinishNotification\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MonthlyContractPerYearIncome\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\UserNavbarOptions\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\YearlyContractPerYearIncome\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LimitlessNavbar.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Messages.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorTargetAssemblyInfo.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorTargetAssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.Views.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.CopyComplete
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\caf - Copy\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.genruntimeconfig.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.exe
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.deps.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.runtimeconfig.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.runtimeconfig.dev.json
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.Views.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\CafeTap.Views.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Collection.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.ExpressionMapping.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Bogus.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\SixLabors.ImageSharp.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\az\Humanizer.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.AssemblyReference.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.AssemblyInfoInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.AssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.CoreCompileInputs.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorAssemblyInfo.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorAssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\staticwebassets\CafeTap.StaticWebAssets.Manifest.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\staticwebassets\CafeTap.StaticWebAssets.xml
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\scopedcss\bundle\CafeTap.styles.css
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.TagHelpers.input.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.TagHelpers.output.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorCoreGenerate.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\Login\Login.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\Password\ChangePassword.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\Register\Register.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Views\_ViewImports.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\BlackList\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\ContractPayments.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\ContractPayments\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Get.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByCity.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByCityName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Contracts\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\AccessDenied.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Dashboard\Test.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\EmployeeFaults.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeeFaults\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\EmployeePaymentDetails.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\EmployeePayments.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\SearchEmployeePaymentDetails.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePayments\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\EmployeePunishments.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\EmployeePunishments\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\EmployeeContractPaymentIncomeCurrentYear.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Search.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Employees\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Fails\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\GetById.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Interns\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Search.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Partners\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Positions\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\GetEmployeePrePayments.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\PrePayment\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Contracts.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Products\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\RestaurantContacts.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantContacts\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Create.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Get.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantMeetings\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\NetworkRestaurants.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantNetworks\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Create.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Restaurants.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RestaurantStatuses\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\GetById.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\RestaurantDebts.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\SearchRestaurantDebtByContractName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\SearchRestaurantDebtByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Restaurants\UpdateStatus.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\AddClaims.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Edit.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\RoleManagement\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Settings\DashBoardSettings.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_DashboardAction.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_DashboardNavigation.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Shared\_Validation.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\GetById.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Spends\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Add.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\SearchByName.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Stants\Update.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\CurrentYearIncomePerMonth.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\MonthlyIncomePerYears.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\Search.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\SearchByYearAndContractType.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\Statistics\YearlyContractIncomePerYears.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\AllTokens.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\CreateTokenForRegistration.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\EditUserRole.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\UserManagement\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Areas\Panel\Views\_ViewImports.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Error\Error.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\RandomGenerator\CreateRestaurant.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractCalendar\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractFinishNotification\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ContractMeetingCalendar\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CountInfo\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\GetYearlyInComePerMonth\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LeastTimeRemainingContracts\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LeastTimeRemainingMeetings\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MeetingsCalendar\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MeetingsFinishNotification\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MonthlyContractPerYearIncome\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\UserNavbarOptions\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\YearlyContractPerYearIncome\Default.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LimitlessNavbar.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Messages.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorTargetAssemblyInfo.cache
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.RazorTargetAssemblyInfo.cs
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.Views.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.csproj.CopyComplete
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.dll
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.pdb
+C:\Users\sahan\Desktop\CafeTap-master\Desktop\cafe_tap\CafeTap\obj\Debug\netcoreapp3.1\CafeTap.genruntimeconfig.cache

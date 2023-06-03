@@ -1,0 +1,84 @@
+﻿@model Infrastructure.UserToken.ViewModels.CreateUserTokenVm
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Add Token";
+    ViewData["MainTitle"] = "Token";
+    ViewData["SubTitle"] = "Add";
+    ViewData["users"] = "active";
+}
+@section scripts
+{
+
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+    <script src="~/Limitless/global_assets/js/demo_pages/form_inputs.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_validation.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/validation/validate.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switch.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/purify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/sortable.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/uploader_bootstrap.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_actions.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_select2.js"></script>
+
+
+
+}
+
+<partial name="_Validation"/>
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Tokenlər</h5>
+        <div class="header-elements">
+            <div class="list-icons">
+                <a class="list-icons-item" data-action="collapse"></a>
+                <a class="list-icons-item" data-action="reload"></a>
+                <a class="list-icons-item" data-action="remove"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <p class="mb-4">Token əlavə et</p>
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form asp-action="CreateTokenForRegistration" asp-controller="UserManagement" asp-area="Panel" method="post" enctype="multipart/form-data">
+            <fieldset class="mb-3">
+                <legend class="text-uppercase font-size-sm font-weight-bold">Token Detalları</legend>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Token</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="Token">
+                    </div>
+                </div>
+                <span asp-validation-for="Token" class="text-danger"></span>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Vəzifə</label>
+                    <div class="form-check form-check-inline">
+                        <div class="col-lg-3">
+                            <select class="form-control select-fixed-single" asp-for="RoleId" asp-items="@Model.Roles" data-fouc>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn bg-blue ml-3">Əlavə et<i class="icon-paperplane ml-2"></i></button>
+            </fieldset>
+        </form>
+
+    </div>
+</div>

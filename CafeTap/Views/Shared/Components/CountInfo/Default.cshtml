@@ -1,0 +1,24 @@
+﻿@model Infrastructure.Statistics.ViewModels.EmployeeRestaurantContractCountVm
+
+
+<div class="card card-body">
+    <div class="row text-center">
+        <div class="col-4">
+            <p><i class="icon-store icon-2x d-inline-block text-info"></i></p>
+            <h5 class="font-weight-semibold mb-0">@Model.RestaurantCount</h5>
+            <span class="text-muted font-size-sm">Restoranlar</span>
+        </div>
+
+        <div class="col-4">
+            <p><i class="icon-file-text2 icon-2x d-inline-block text-warning"></i></p>
+            <h5 class="font-weight-semibold mb-0">@Model.ContractCount</h5>
+            <span class="text-muted font-size-sm">Müqavilələr</span>
+        </div>
+
+        <div class="col-4">
+            <p><i class="icon-user-tie icon-2x d-inline-block text-success"></i></p>
+            <h5 class="font-weight-semibold mb-0">@Model.EmployeeCount</h5>
+            <span class="text-muted font-size-sm">İşçilər</span>
+        </div>
+    </div>
+</div>

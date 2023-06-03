@@ -1,0 +1,111 @@
+﻿@model Infrastructure.ContractPayments.ViewModels.UpdateContractPaymentVm;
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Ödanışı redakta etmək";
+    ViewData["MainTitle"] = "Ödəniş";
+    ViewData["SubTitle"] = "Redakta";
+}
+@section scripts
+{
+
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+    <script src="~/Limitless/global_assets/js/demo_pages/form_inputs.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_validation.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/validation/validate.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switch.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/purify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/sortable.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/uploader_bootstrap.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_actions.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_select2.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/moment/moment.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/daterangepicker.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/anytime.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.date.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.time.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/legacy.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/notifications/jgrowl.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/picker_date.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/notifications/pnotify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_multiselect.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/picker_date.js"></script>
+
+}
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title font-weight-bold">Bölmələr</h5>
+    </div>
+
+    <div class="card-body">
+        <ul class="nav nav-tabs nav-tabs-highlight">
+            <li class="nav-item"><a asp-controller="Restaurants" asp-action="Index" asp-route-page="1" class="nav-link">Restoranlar</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantStatuses" asp-action="Index" asp-route-page="1" class="nav-link">Statuslar</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantNetworks" asp-action="Index" asp-route-page="1" class="nav-link">Restoran şəbəkələri</a></li>
+            <li class="nav-item"><a asp-controller="Contracts" asp-action="Index" asp-route-page="1" class="nav-link active">Müqavilələr</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantMeetings" asp-action="Index" asp-route-page="1" class="nav-link">Görüşlər</a></li>
+            <li class="nav-item"><a asp-controller="BlackList" asp-action="Index" asp-route-page="1" class="nav-link">Qara siyahı</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Ödəniş</h5>
+    </div>
+
+    <div class="card-body">
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form asp-action="Update" asp-controller="ContractPayments" method="post">
+            <fieldset>
+                <legend class="font-weight-semibold text-uppercase font-size-sm">
+                    <i class="icon-file-text2 mr-2"></i>
+                    Kontrat ödəniş informasiyası
+                    <a href="#" class="float-right text-default" data-toggle="collapse" data-target="#demo1">
+                        <i class="icon-circle-down2"></i>
+                    </a>
+                </legend>
+
+                <div class="collapse show" id="demo1">
+                    <div class="form-group">
+                        <label>Məbləğ</label>
+                        <input class="form-control" asp-for="Amount" placeholder="Məbləğ">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>Ödəniş zamanı</label>
+                        <div class="input-group">
+                            <span class="input-group-prepend">
+                                <span class="input-group-text"><i class="icon-calendar5"></i></span>
+                            </span>
+                            <input type="date" asp-for="PaidAt" class="form-control pickadate-selectors" placeholder="Try me&hellip;">
+                        </div>
+                    </div>
+                </div>
+
+                <input hidden asp-for="ContractId" value="@Model.ContractId" />
+                <input hidden asp-for="Id" value="@Model.Id" />
+
+                <div class="text-right">
+                    <button type="submit" class="btn btn-warning">Redakta Et <i class="icon-paperplane ml-2"></i></button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>

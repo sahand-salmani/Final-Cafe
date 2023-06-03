@@ -1,0 +1,9 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *,AuthoringTagHelpers
+
+@model List<Domain.Models.Restaurant>
+
+<form asp-controller="RandomGenerator" asp-action="CreateRestaurant">
+    <input name="Amount" type="number"/>
+    <button type="submit">Create</button>
+</form>

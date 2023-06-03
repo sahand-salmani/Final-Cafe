@@ -1,0 +1,80 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Admin Panel";
+    ViewData["MainTitle"] = "Admin";
+    ViewData["SubTitle"] = "Panel";
+    ViewData["dashboard"] = "active";
+}
+
+@section scripts{
+
+    <script src="~/limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/limitless/global_assets/js/demo_pages/invoice_grid.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/visualization/echarts/echarts.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_charts/echarts/light/bars/columns_basic.js"></script>
+    
+    <script src="~/Limitless/global_assets/js/plugins/ui/fullcalendar/core/main.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/fullcalendar/daygrid/main.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/fullcalendar/timegrid/main.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/fullcalendar/interaction/main.min.js"></script>
+}
+
+
+
+
+<!-- Inner container -->
+<div class="d-flex align-items-start flex-column flex-md-row">
+
+    <!-- Left content -->
+    <div class="w-100 order-2 order-md-1">
+        <!-- Invoice grid -->
+        @if (User.HasClaim(e => e.Value == ClaimsList.Statistika))
+        {
+            @await Component.InvokeAsync("GetYearlyInComePerMonth")
+        }
+
+        <div class="text-center text-muted content-divider mb-3">
+            <span class="p-2">Müqavilələr</span>
+        </div>
+
+        @await Component.InvokeAsync("LeastTimeRemainingContracts")
+
+        <div class="text-center text-muted content-divider mb-3">
+            <span class="p-2">Görüşlər</span>
+        </div>
+
+        @await Component.InvokeAsync("LeastTimeRemainingMeetings")
+
+        <div class="text-center text-muted content-divider mb-3">
+            <span class="p-2">Görüşlər və müqavilələr</span>
+        </div>
+        @await Component.InvokeAsync("ContractMeetingCalendar")
+
+    </div>
+    <!-- /left content -->
+    <!-- Right sidebar component -->
+    <div class="sidebar sidebar-light bg-transparent sidebar-component sidebar-component-right border-0 shadow-0 order-1 order-md-2 sidebar-expand-md">
+
+        <!-- Sidebar content -->
+        <div class="sidebar-content">
+
+            <!-- Invoice actions -->
+
+
+            <partial name="_DashboardAction" />
+
+
+
+            <!-- /invoice actions -->
+            <!-- Count info -->
+            @await Component.InvokeAsync("CountInfo")
+            <!-- /Count info -->
+
+        </div>
+        <!-- /sidebar content -->
+
+    </div>
+    <!-- /right sidebar component -->
+
+</div>
+<!-- /inner container -->

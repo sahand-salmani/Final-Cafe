@@ -1,0 +1,102 @@
+﻿<ul class="nav nav-sidebar" data-nav-type="accordion">
+
+    <li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
+    <li class="nav-item">
+        <a asp-controller="Dashboard" asp-action="Index" asp-area="Panel" class="nav-link @ViewData["dashboard"]">
+            <i class="icon-home4"></i>
+            <span>
+                Dashboard
+            </span>
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a asp-controller="Restaurants" asp-action="Index" asp-area="Panel" asp-route-page="1" class="nav-link @ViewData["restaurants"]">
+            <i class="icon-store"></i>
+            <span>
+                Restoranlar
+            </span>
+        </a>
+    </li>  
+    <li class="nav-item">
+        <a asp-controller="Partners" asp-action="Index" asp-area="Panel" asp-route-page="1" class="nav-link @ViewData["Partners"]">
+            <i class="icon-collaboration"></i>
+            <span>
+                Partniyorlar
+            </span>
+        </a>
+    </li>
+    @if (User.HasClaim(c => c.Value == Statistika))
+    {
+        <li class="nav-item">
+            <a asp-controller="Statistics" asp-action="Search" asp-area="Panel" class="nav-link @ViewData["statistics"]">
+                <i class="icon-graph"></i>
+                <span>
+                    Statistika
+                </span>
+            </a>
+        </li>
+    }
+    
+    <li class="nav-item">
+        <a asp-controller="Products" asp-action="Index" asp-route-page="1" asp-area="Panel" class="nav-link @ViewData["services"]">
+            <i class="icon-basket"></i>
+            <span>
+                Xidmətlər
+            </span>
+        </a>
+    </li>
+    
+    @if (User.HasClaim(e => e.Value == ClaimsList.Spends))
+    {
+        <li class="nav-item">
+            <a asp-controller="Spends" asp-action="Index" asp-route-page="1" asp-area="Panel" class="nav-link @ViewData["spends"]">
+                <i class="icon-coins"></i>
+                <span>
+                    Xərclər və Uğursuzluqlar
+                </span>
+            </a>
+        </li>
+    }
+    
+    
+    @if (User.HasClaim(e => e.Value == ClaimsList.Employee))
+    {
+        <li class="nav-item">
+            <a asp-controller="Employees" asp-action="Index" asp-route-page="1" asp-area="Panel" class="nav-link @ViewData["employees"]">
+                <i class="icon-users"></i>
+                <span>
+                    İşçilər və Vəzifələr
+                </span>
+            </a>
+        </li>
+    }
+
+    
+    @if (User.HasClaim(e => e.Value == ClaimsList.Intern))
+    {
+        <li class="nav-item">
+            <a asp-controller="Interns" asp-action="Index" asp-route-page="1" asp-area="Panel" class="nav-link @ViewData["interns"]">
+                <i class="icon-person"></i>
+                <span>
+                    İnternlər
+                </span>
+            </a>
+        </li>
+    }
+
+
+    @if (User.HasClaim(e => e.Value == ClaimsList.Users))
+    {
+        <li class="nav-item">
+            <a asp-controller="UserManagement" asp-action="Index" asp-route-page="1" asp-area="Panel" class="nav-link @ViewData["users"]">
+                <i class="icon-user-tie"></i>
+                <span>
+                    İstifadəçilər və mövqelər
+                </span>
+            </a>
+        </li>
+    }
+
+
+</ul>

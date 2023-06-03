@@ -1,0 +1,355 @@
+﻿@model Infrastructure.Contracts.ViewModels.GetContractVm
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Müqavilə Detalları";
+    ViewData["MainTitle"] = "Müqavilə";
+    ViewData["SubTitle"] = "Detalları";
+    ViewData["restaurants"] = "active";
+    var counter = 1;
+    var modalCounter = 1;
+    var modelCounter2 = 1;
+
+    var remains = "Bitibdir";
+    if (DateTime.Now.ToAzDateTime() < Model.EndDate.ToAzDateTime())
+    {
+        remains = DateTime.Now.ToAzDateTime().Difference(Model.EndDate).Humanize(maxUnit: TimeUnit.Year, minUnit: TimeUnit.Hour, culture: AzCulture.AzCulture(), precision: 2);
+    }
+    var duration = Model.EndDate.Difference(Model.StartDate).Humanize(maxUnit: TimeUnit.Year, minUnit: TimeUnit.Hour, culture: AzCulture.AzCulture(), precision: 2);
+
+}
+@section scripts
+{
+
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+    <script src="~/Limitless/global_assets/js/demo_pages/form_inputs.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_validation.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/validation/validate.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/inputs/touchspin.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switch.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/purify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/plugins/sortable.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/uploaders/fileinput/fileinput.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/uploader_bootstrap.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_actions.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_checkboxes_radios.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_select2.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/moment/moment.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/daterangepicker.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/anytime.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.date.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/picker.time.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/pickers/pickadate/legacy.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/notifications/jgrowl.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/picker_date.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/notifications/pnotify.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/form_multiselect.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/picker_date.js"></script>
+
+}
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title font-weight-bold">Restoran Bölmələrı</h5>
+    </div>
+
+    <div class="card-body">
+        <ul class="nav nav-tabs nav-tabs-highlight">
+            <li class="nav-item"><a asp-controller="Restaurants" asp-action="Index" asp-route-page="1" class="nav-link">Restoranlar</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantStatuses" asp-action="Index" asp-route-page="1" class="nav-link">Statuslar</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantNetworks" asp-action="Index" asp-route-page="1" class="nav-link">Restoran şəbəkələri</a></li>
+            <li class="nav-item"><a asp-controller="Contracts" asp-action="Index" asp-route-page="1" class="nav-link active">Müqavilələr</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantMeetings" asp-action="Index" asp-route-page="1" class="nav-link">Görüşlər</a></li>
+            <li class="nav-item"><a asp-controller="BlackList" asp-action="Index" asp-route-page="1" class="nav-link">Qara siyahı</a></li>
+        </ul>
+        <div class="d-md-flex align-items-md-center flex-md-wrap text-center text-md-left">
+            <ul class="list-inline list-inline-condensed mb-0">
+                <li class="list-inline-item dropdown">
+                    <a asp-action="Add" asp-controller="Restaurants" class="btn btn-link text-default"><i class="icon-add"></i> Yeni <strong>restoran</strong> əlavə et</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Müqavilə</h5>
+        <div class="header-elements">
+            <div class="list-icons">
+                <a class="list-icons-item" data-action="collapse"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <fieldset>
+            <legend class="font-weight-semibold text-uppercase font-size-sm">
+                <i class="icon-file-text2 mr-2"></i>
+                Müqavilə Detaylları
+                <a href="#" class="float-right text-default" data-toggle="collapse" data-target="#demo1">
+                    <i class="icon-circle-down2"></i>
+                </a>
+            </legend>
+
+            <div class="collapse show" id="demo1">
+
+
+                <div class="form-group">
+                    <label>Müqavilə adı</label>
+                    <input type="text" class="form-control" disabled asp-for="Name" placeholder="Müqavilə adı">
+                </div>
+                <div class="form-group">
+                    <label>Restoran</label>
+                    <input type="text" class="form-control" disabled asp-for="Restaurant.Name" placeholder="Restoran adı">
+                </div>
+                <div class="form-group">
+                    <label>Borc</label>
+                    <input class="form-control" disabled asp-for="@Model.Remains" placeholder="Borc">
+                </div>
+                <div class="form-group">
+                    <label>Müqavilə Növü</label>
+                    <input type="text" class="form-control" disabled value="@Model.ContractType">
+                </div>
+                <div class="form-group">
+                    <label>Başlayır</label>
+                    <input type="text" class="form-control" disabled value="@Model.StartDate.ToString("D", AzCulture.AzCulture())">
+                </div>
+                
+                <div class="form-group">
+                    <label>Bitir</label>
+                    <input type="text" class="form-control" disabled value="@Model.EndDate.ToString("D", AzCulture.AzCulture())">
+                </div>
+                <div class="form-group">
+                    <label>Müddəti</label>
+                    <input type="text" class="form-control" disabled value="@duration">
+                </div>
+                
+                <div class="form-group">
+                    <label>Qalır</label>
+                    <input type="text" class="form-control" disabled value="@remains">
+                </div>
+
+            </div>
+        </fieldset>
+        <br />
+        <br />
+
+        <fieldset>
+            <legend class="font-weight-semibold text-uppercase font-size-sm">
+                <i class="icon-reading mr-2"></i>
+                Satış Əməkdaşı informasiyası
+                <a class="float-right text-default" data-toggle="collapse" data-target="#demo2">
+                    <i class="icon-circle-down2"></i>
+                </a>
+            </legend>
+
+            <div class="collapse show" id="demo2">
+
+                <div class="form-group">
+                    <label>Satış Əməkdaşı</label>
+                    <input type="text" class="form-control" disabled asp-for="Employee.FullName">
+                </div>
+
+            </div>
+        </fieldset>
+        
+        <br />
+        <br />
+
+        <fieldset>
+            <legend class="font-weight-semibold text-uppercase font-size-sm">
+                <i class="icon-reading mr-2"></i>
+                Products
+                <a class="float-right text-default" data-toggle="collapse" data-target="#demo3">
+                    <i class="icon-circle-down2"></i>
+                </a>
+            </legend>
+
+            <div class="collapse show" id="demo3">
+
+                <table class="table datatable-basic table-bordered">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Mahsul Adı</th>
+                            <th class="text-center">Əməliyatlar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.ContractProducts != null)
+                        {
+                            @if (Model.ContractProducts.Count != 0)
+                            {
+                                @for (int i = 0; i < Model.ContractProducts.Count; i++)
+                                {
+                                    <tr>
+                                        <td>@(i+1)</td>
+                                        <td>@Model.ContractProducts[i].Product.Name</td>
+                                        <td class="text-center">
+                                            <div class="list-icons">
+                                                <div class="dropdown">
+                                                    <a href="#" class="list-icons-item" data-toggle="dropdown">
+                                                        <i class="icon-menu9"></i>
+                                                    </a>
+
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a asp-controller="Products" asp-action="Contracts" asp-route-id="@Model.ContractProducts[i].ProductId" class="dropdown-item"><i class="icon-pencil"></i>Məhsul Müqaviləları</a>
+                                                        <a asp-controller="Products" asp-action="Update" asp-route-id="@Model.ContractProducts[i].ProductId" class="dropdown-item"><i class="icon-pencil"></i>Redakta Et</a>
+                                                        <a data-toggle="modal" data-target="#modal_theme_danger-@(i+1)-prod" class="dropdown-item"><i class="icon-eraser3"></i>Sil</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        }
+
+                    </tbody>
+                </table>
+
+            </div>
+        </fieldset>
+        <br />
+        <br />
+        <fieldset>
+            <legend class="font-weight-semibold text-uppercase font-size-sm">
+                <i class="icon-reading mr-2"></i>
+                Müqavilə ödəniş məlumatları
+                <a class="float-right text-default" data-toggle="collapse" data-target="#demo4">
+                    <i class="icon-circle-down2"></i>
+                </a>
+            </legend>
+
+            <div class="collapse show" id="demo4">
+
+                <table class="table datatable-basic table-bordered">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Məbləğ</th>
+                            <th>Ödəniliş Zamanı</th>
+                            <th class="text-center">Əməliyatlar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.ContractPayments != null)
+                        {
+                            @if (Model.ContractPayments.Count != 0)
+                            {
+                                @for (int i = 0; i < Model.ContractPayments.Count; i++)
+                                {
+                                    <tr>
+                                        <td>@(i+1)</td>
+                                        <td>@Model.ContractPayments[i].Amount</td>
+                                        <td>@Model.ContractPayments[i].PaidAt.ToString("D", AzCulture.AzCulture())</td>
+                                        <td class="text-center">
+                                            <div class="list-icons">
+                                                <div class="dropdown">
+                                                    <a href="#" class="list-icons-item" data-toggle="dropdown">
+                                                        <i class="icon-menu9"></i>
+                                                    </a>
+
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a asp-controller="ContractPayments" asp-action="Update" asp-route-id="@Model.ContractPayments[i].Id" class="dropdown-item"><i class="icon-pencil"></i>Redaktə Et</a>
+                                                        <a data-toggle="modal" data-target="#modal_theme_danger-@counter-cp" class="dropdown-item"><i class="icon-eraser3"></i>Sil</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        }
+
+                    </tbody>
+                </table>
+
+            </div>
+        </fieldset>
+
+    </div>
+</div>
+
+
+@if (Model.ContractProducts != null)
+{
+
+    @foreach (var product in Model.ContractProducts)
+    {
+        <div id="modal_theme_danger-@modalCounter-prod" class="modal fade" tabindex="-1">
+            @{
+                modalCounter += 1;
+            }
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-danger">
+                        <h6 class="modal-title">Məhsulu tam silmək @product.Product.Name</h6>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="modal-body">
+                            <h6 class="font-weight-semibold">Öəmnli bildiriş!!!</h6>
+                            <p>Sildikdən sonra geri qayıtmayacaq. silməyinizdən əmin misiniz?</p>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <form asp-action="Delete" asp-controller="Products" asp-area="Panel" asp-route-id="@product.Product.Id" method="post">
+                            <button type="button" class="btn btn-link" data-dismiss="modal">Bağla</button>
+                            <button type="submit" class="btn bg-danger">Sil</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+
+@if (Model.ContractPayments != null)
+{
+    @foreach (var contractPayment in Model.ContractPayments)
+    {
+        <div id="modal_theme_danger-@modelCounter2-cp" class="modal fade" tabindex="-1">
+            @{
+                modelCounter2 += 1;
+            }
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-danger">
+                        <h6 class="modal-title">Müqavilə ödənişi silmək @contractPayment.PaidAt.ToString("D", AzCulture.AzCulture())</h6>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="modal-body">
+                            <h6 class="font-weight-semibold">Öəmnli bildiriş!!!</h6>
+                            <p>Siz bu məhsulu Müqavilədan deyil, ümumi silirsiniz. silməyinizdən əmin misiniz?</p>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <form asp-action="Delete" asp-controller="ContractPayments" asp-area="Panel" asp-route-id="@contractPayment.Id" method="post">
+                            <button type="button" class="btn btn-link" data-dismiss="modal">Bağla</button>
+                            <button type="submit" class="btn bg-danger">Sil</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}

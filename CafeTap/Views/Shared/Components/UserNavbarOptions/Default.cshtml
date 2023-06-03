@@ -1,0 +1,18 @@
+﻿@model Infrastructure.Users.ViewModels.GetUserVm;
+
+@{
+    Layout = null;
+}
+<a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
+    <img src="~/Limitless/user.png" class="rounded-circle mr-2" height="34" alt="">
+    <span>@Model.UserName</span>
+</a>
+
+<div class="dropdown-menu dropdown-menu-right">
+    <a asp-area="Identity" asp-controller="Password" asp-action="ChangePassword" asp-route-id="@Model.Id" class="dropdown-item"><i class="icon-lock"></i>Şifrəni dəyiş</a>
+    <a href="#" onclick="document.getElementById('LogOutForm').submit()" class="dropdown-item"><i class="icon-switch2"></i>Çıx</a>
+</div>
+
+
+<form id="LogOutForm" asp-action="SignOut" asp-controller="Login" asp-area="Identity" method="post">
+</form>

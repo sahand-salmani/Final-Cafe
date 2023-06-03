@@ -1,0 +1,362 @@
+﻿@model Infrastructure.Restaurants.ViewModels.GetRestaurantVm;
+
+@{ Layout = "_Layout";
+    ViewData["Title"] = "Restoran təfərrüatları";
+    ViewData["MainTitle"] = "Restoranlar";
+    ViewData["SubTitle"] = "Təfərrüatlar";
+    ViewData["restaurants"] = "active";
+}
+@section scripts
+{
+    <script src="~/Limitless/global_assets/js/plugins/ui/fab.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/sticky.min.js"></script>
+    <script src="~/Limitless/global_assets/js/plugins/ui/prism.min.js"></script>
+    <script src="~/Limitless/global_assets/js/demo_pages/extra_fab.js"></script>
+    
+}
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title font-weight-bold">Restoran Bölmələrı</h5>
+    </div>
+
+    <div class="card-body">
+        <ul class="nav nav-tabs nav-tabs-highlight">
+            <li class="nav-item"><a asp-controller="Restaurants" asp-action="Index" asp-route-page="1" class="nav-link active">Restoranlar</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantStatuses" asp-action="Index" asp-route-page="1" class="nav-link">Statuslar</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantNetworks" asp-action="Index" asp-route-page="1" class="nav-link">Restoran şəbəkələri</a></li>
+            <li class="nav-item"><a asp-controller="Contracts" asp-action="Index" asp-route-page="1" class="nav-link">Müqavilələr</a></li>
+            <li class="nav-item"><a asp-controller="RestaurantMeetings" asp-action="Index" asp-route-page="1" class="nav-link">Görüşlər</a></li>
+            <li class="nav-item"><a asp-controller="Partners" asp-action="Index" asp-route-page="1" class="nav-link">Partnerlər</a></li>
+            <li class="nav-item"><a asp-controller="BlackList" asp-action="Index" asp-route-page="1" class="nav-link">Qara siyahı</a></li>
+        </ul>
+        <div class="d-md-flex align-items-md-center flex-md-wrap text-center text-md-left">
+            <ul class="list-inline list-inline-condensed mb-0">
+                <li class="list-inline-item dropdown">
+                    <a asp-action="Add" asp-controller="Restaurants" class="btn btn-link text-default"><i class="icon-add"></i> Yeni <strong>restoran</strong> əlavə et</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Restoran təfərrüatları</h5>
+    </div>
+
+    <div class="card-body">
+        <fieldset class="mb-3">
+            <legend class="text-uppercase font-size-sm font-weight-bold">Restoran Məlumatları</legend>
+
+            <div class="form-group row">
+                <label class="col-form-label col-lg-2">Restoran adı</label>
+                <div class="col-lg-3">
+                    <input class="form-control" disabled asp-for="@Model.Name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-form-label col-lg-2">Restornanın Toplam Borcu</label>
+                <div class="col-lg-3">
+                    <input class="form-control" disabled asp-for="@Model.TotalDebt">
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <label class="col-form-label col-lg-2">Ünvan</label>
+                <div class="col-lg-3">
+                    <input class="form-control" disabled asp-for="@Model.Address">
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <label class="col-form-label col-lg-2">Əlaqə nömrəsi</label>
+                <div class="col-lg-5">
+                    <input class="form-control" disabled asp-for="@Model.PhoneNumber">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-form-label col-lg-2">Şəhər </label>
+                <div class="col-lg-5">
+                    <input class="form-control" disabled asp-for="@Model.City">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-form-label col-lg-2">Status</label>
+                <div class="col-lg-5">
+                    <input class="form-control" disabled asp-for="@Model.Status">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-form-label col-lg-2">Şəbəkə </label>
+                <div class="col-lg-5">
+                    <input class="form-control" disabled asp-for="@Model.Network">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h4 class="card-title">Müqavilələr</h4>
+    </div>
+
+    <table class="table datatable-basic table-bordered">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Müqavilə adı</th>
+                <th>İşçi</th>
+                <th>Başladı</th>
+                <th>Bitdi</th>
+                <th>Müddət</th>
+                <th>Qalıq</th>
+                <th class="text-center">Əməliyyatlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{ var j = 1; }
+            @foreach (var contract in Model.Contract)
+            {
+<tr>
+    <td>@(j++)</td>
+    <td>@contract.Name</td>
+    <td>@contract.Employee.FullName</td>
+    <td>@contract.StartDate.ToString("D", AzCulture.AzCulture())</td>
+    <td>@contract.EndDate.ToString("D", AzCulture.AzCulture())</td>
+    <td>@((contract.EndDate - contract.StartDate).Humanize(maxUnit:TimeUnit.Year, minUnit:TimeUnit.Hour, culture:AzCulture.AzCulture(), precision:2))</td>
+    @if (DateTime.Now.ToAzDateTime() > contract.EndDate)
+    {
+<td>Bitibdir</td> }
+                else
+                {
+<th>@((DateTime.Now.ToAzDateTime() - contract.EndDate ).Humanize(2,maxUnit: TimeUnit.Year,minUnit:TimeUnit.Hour, culture:AzCulture.AzCulture()))</th>}
+    <td class="text-center">
+        <div class="list-icons">
+            <div class="dropdown">
+                <a href="#" class="list-icons-item" data-toggle="dropdown">
+                    <i class="icon-menu9"></i>
+                </a>
+
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a asp-controller="ContractPayments" asp-action="ContractPayments" asp-route-id="@contract.Id" asp-route-page="1" class="dropdown-item"><i class="icon-cash"></i>Ödənişlər</a>
+                    <a asp-controller="ContractPayments" asp-action="Add" asp-route-id="@contract.Id" class="dropdown-item"><i class="icon-add"></i>Ödəniş əlavə et</a>
+                    <a asp-controller="Contracts" asp-action="Update" asp-route-id="@contract.Id" class="dropdown-item"><i class="icon-pencil"></i>Redaktə et</a>
+                    <a data-toggle="modal" data-target="#modal_theme_danger-@contract.Id-contract" class="dropdown-item"><i class="icon-eraser3"></i>Sil</a>
+                </div>
+            </div>
+        </div>
+    </td>
+</tr>            }
+
+        </tbody>
+    </table>
+</div>
+
+
+<!-- Bordered table -->
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Restorana aid olan müqavilələrin ödənişləri</h5>
+    </div>
+
+
+    <table class="table datatable-basic table-bordered">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Restoran Adı</th>
+                <th>Müqavilə Adı</th>
+                <th>Ödəniş Zamanı</th>
+                <th>Məbləq</th>
+                <th class="text-center">Əməliyyatlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{ var z = 1; }
+            @foreach (var contract in Model.Contract)
+            {
+@foreach (var payment in contract.ContractPayments)
+{
+<tr>
+    <td>@(z++)</td>
+    <td>@Model.Name</td>
+    <td>@contract.Name</td>
+    <td>@payment.PaidAt.ToString("D", AzCulture.AzCulture())</td>
+    <td>@payment.Amount.ToString("C", AzCulture.AzCulture())</td>
+    <td class="text-center">
+        <div class="list-icons">
+            <div class="dropdown">
+                <a href="#" class="list-icons-item" data-toggle="dropdown">
+                    <i class="icon-menu9"></i>
+                </a>
+
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a asp-controller="ContractPayments" asp-action="Update" asp-route-id="@payment.Id" class="dropdown-item"><i class="icon-pencil"></i>Redaktə Et</a>
+                    <a data-toggle="modal" data-target="#modal_theme_danger-@payment.Id-payment" class="dropdown-item"><i class="icon-eraser3"></i>Sil</a>
+                </div>
+            </div>
+        </div>
+    </td>
+</tr>                }            }
+
+        </tbody>
+    </table>
+</div>
+<!-- /bordered table -->
+<!-- Bordered table -->
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Restorana Aid Görüşlər</h5>
+    </div>
+
+
+
+    <table class="table datatable-basic table-bordered">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Restoran</th>
+                <th>Məsul Şəxs</th>
+                <th>Mövzü</th>
+                <th>Görüş Zamanı</th>
+                <th>Qalır</th>
+                <th class="text-center">Əməliyyatlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.RestaurantMeetings.Count; i++)
+            {
+<tr>
+    <td>@(i+1)</td>
+    <td>@Model.RestaurantMeetings[i].Restaurant.Name</td>
+    <td>@Model.RestaurantMeetings[i].Person</td>
+    <td>@Model.RestaurantMeetings[i].Subject</td>
+    @*<td>@Model[i].HappensAt.ToString("d/M/yyyy")</td>*@
+    <td>@Model.RestaurantMeetings[i].HappensAt.ToString("f", AzCulture.AzCulture())</td>
+    @if (DateTime.Now.ToAzDateTime() > Model.RestaurantMeetings[i].HappensAt)
+    {
+<td>Görüş bitibdir</td> }
+                else
+                {
+<td>@((Model.RestaurantMeetings[i].HappensAt - DateTime.Now.ToAzDateTime()).Humanize(6, maxUnit: TimeUnit.Month,minUnit:TimeUnit.Minute, culture: AzCulture.AzCulture()))</td>}
+    <td class="text-center">
+        <div class="list-icons">
+            <div class="dropdown">
+                <a href="#" class="list-icons-item" data-toggle="dropdown">
+                    <i class="icon-menu9"></i>
+                </a>
+
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a asp-controller="RestaurantMeetings" asp-action="Update" asp-route-id="@Model.RestaurantMeetings[i].Id" class="dropdown-item"><i class="icon-pencil"></i>Redaktə Et</a>
+                    <a data-toggle="modal" data-target="#modal_theme_danger-@Model.RestaurantMeetings[i].Id-meeting" class="dropdown-item"><i class="icon-eraser3"></i>Sil</a>
+                </div>
+            </div>
+        </div>
+    </td>
+</tr>            }
+
+        </tbody>
+    </table>
+</div>
+<!-- /bordered table -->
+
+
+
+@foreach (var rm in Model.RestaurantMeetings)
+{
+<div id="modal_theme_danger-@rm.Id-meeting" class="modal fade" tabindex="-1">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger">
+                <h6 class="modal-title">Şəxs silinəcək: @rm.Person</h6>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <h6 class="font-weight-semibold">Vacib qeyd!!!</h6>
+                <p>Bu şəxsi silmək istədiyinizdən əminsiniz mi?</p>
+            </div>
+
+            <div class="modal-footer">
+                <form asp-action="Delete" asp-controller="RestaurantMeetings" asp-area="Panel" asp-route-id="@rm.Id" method="post">
+                    <button type="button" class="btn btn-link" data-dismiss="modal">Bağla</button>
+                    <button type="submit" class="btn bg-danger">Sil</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>}
+
+
+
+
+
+
+@if (Model != null)
+{
+@foreach (var contract in Model.Contract)
+{
+<div id="modal_theme_danger-@contract.Id-contract" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger">
+                <h6 class="modal-title">Müqavilə silinəcək: @contract.Name</h6>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <h6 class="font-weight-semibold">Vacib qeyd!!!</h6>
+                <p>Bu müqaviləni silmək istədiyinizdən əminsiniz mi?</p>
+            </div>
+
+            <div class="modal-footer">
+                <form asp-action="Delete" asp-controller="Contracts" asp-area="Panel" asp-route-id="@contract.Id" method="post">
+                    <button type="button" class="btn btn-link" data-dismiss="modal">Bağla</button>
+                    <button type="submit" class="btn bg-danger">Sil</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>}}
+
+
+
+@if (Model != null)
+{
+
+@foreach (var c in Model.Contract)
+{
+@foreach (var cp in c.ContractPayments)
+{
+<div id="modal_theme_danger-@cp.Id-payment" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger">
+                <h6 class="modal-title">Ödəniş silinəcək: @c.Name</h6>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <h6 class="font-weight-semibold">Vacib qeyd!!!</h6>
+                <p>Bu ödənişi silmək istədiyinizdən əminsiniz mi?</p>
+
+            </div>
+
+            <div class="modal-footer">
+                <form asp-action="Delete" asp-controller="ContractPayments" asp-area="Panel" asp-route-id="@cp.Id" method="post">
+                    <button type="button" class="btn btn-link" data-dismiss="modal">Bağla</button>
+                    <button type="submit" class="btn bg-danger">Sil</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>}}}

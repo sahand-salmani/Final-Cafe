@@ -1,0 +1,51 @@
+﻿@model Infrastructure.Roles.ViewModels.UpdateRoleVm
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Mövqeni redaktə et";
+    ViewData["MainTitle"] = "Mövqe";
+    ViewData["SubTitle"] = "Redaktə et";
+    ViewData["users"] = "active";
+}
+@section scripts
+{
+
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+
+}
+<div class="card">
+    <div class="card-header header-elements-inline">
+        <h5 class="card-title">Roles</h5>
+        <div class="header-elements">
+            <div class="list-icons">
+                <a class="list-icons-item" data-action="collapse"></a>
+                <a class="list-icons-item" data-action="reload"></a>
+                <a class="list-icons-item" data-action="remove"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <p class="mb-4">Mövqeni redaktə et</p>
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <form asp-action="Edit" asp-controller="RoleManagement" asp-area="Panel" asp-route-id="@Model.Id" method="post">
+            <input hidden asp-for="Id" value="@Model.Id" />
+            <fieldset class="mb-3">
+                <legend class="text-uppercase font-size-sm font-weight-bold">Mövqe detalları</legend>
+
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Mövqe adı</label>
+                    <div class="col-lg-3">
+                        <input class="form-control" asp-for="Name">
+                    </div>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn bg-orange ml-3">Redaktə et<i class="icon-paperplane ml-2"></i></button>
+            </fieldset>
+        </form>
+
+    </div>
+</div>
